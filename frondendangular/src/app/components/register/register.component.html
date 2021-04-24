@@ -1,0 +1,41 @@
+<div class="background-register p-3">
+    <div class="container clearfix">
+      <div class="float-left">
+        <!-- Default form login -->
+        <form class="text-center border border-light p-5 rounded shadow" action="#!">
+          <p class="h4 mb-4">Registrate</p>
+          <div class="d-flex justify-content-center">
+            <!-- Name -->
+            <input type="text" id="defaultLoginFormName" class="form-control mb-4 mx-1" placeholder="Nombre" required>
+            <!-- Apellidos -->
+            <input type="text" id="defaultLoginFormLastName" class="form-control mb-4" placeholder="Apellidos">
+          </div>
+          <!-- Email -->
+          <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+          <!-- Password -->
+          <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+          <!-- Checkbox -->
+          <div class="form-check d-flex justify-content-left mb-4">
+            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" checked />
+            <label class="form-check-label" for="form2Example3">
+              Acepto los terminos 
+            </label>
+          </div>
+          <!-- Sign in button -->
+          <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
+          <!-- Register -->
+          <p>Ya tienes cuenta?
+            <a  routerLink="/login">Inicia sesión</a>
+          </p>
+          <!-- Social login -->
+          <p>or sign in with:</p>
+          <a href="#" class="mx-2" role="button"><i class="fab fa-google"></i></a>
+        </form>
+        <!-- Default form login -->
+      </div>
+      <div class="float-right">
+      </div>
+    </div>
+  </div>
+  
+  <router-outlet></router-outlet>
