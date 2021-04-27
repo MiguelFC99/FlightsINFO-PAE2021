@@ -2,18 +2,21 @@
     <div class="container clearfix">
       <div class="float-left">
         <!-- Default form login -->
-        <form class="text-center border border-light p-5 rounded shadow" action="#!">
+        <form [formGroup]="formReg" class="text-center border border-light p-5 rounded shadow" (submit)="formRegister()">
           <p class="h4 mb-4">Registrate</p>
           <div class="d-flex justify-content-center">
             <!-- Name -->
-            <input type="text" id="defaultLoginFormName" class="form-control mb-4 mx-1" placeholder="Nombre" required>
+            <input type="text" id="defaultLoginFormName" class="form-control mb-4 mx-1" placeholder="Nombre" name="nombre" required formControlName="nombre">
             <!-- Apellidos -->
-            <input type="text" id="defaultLoginFormLastName" class="form-control mb-4" placeholder="Apellidos">
+            <input type="text" id="defaultLoginFormLastName" class="form-control mb-4" placeholder="Apellidos" name="apellido" required formControlName="apellido">
           </div>
           <!-- Email -->
-          <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+          <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail" name="email" required formControlName="email">
           <!-- Password -->
-          <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+          <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password" name="password" required formControlName="password">
+          <!-- PasswordValid -->
+          <input type="password" id="defaultLoginFormPassword2" class="form-control mb-4" placeholder="Confirmar Password" name="confirmpass" required formControlName="confirmpass">
+          
           <!-- Checkbox -->
           <div class="form-check d-flex justify-content-left mb-4">
             <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" checked />

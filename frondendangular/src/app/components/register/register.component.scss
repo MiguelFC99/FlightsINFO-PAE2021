@@ -9,3 +9,6 @@
     background-color: rgba($color: #ffffff, $alpha: 0.75);
   }
   
+input .ng-dirty.ng-invalid {
+  border: solid 1px darkred;
+}

@@ -5,7 +5,8 @@ const cors = require('cors');
 const swaggerJsDoc = require('swagger-jsdoc');
 
 const swaggerUI = require('swagger-ui-express'); 
-
+const UsersControllers = require('./controllers/usersControllers');
+const userControls = new UsersControllers();
 const {
     flightsRoutes,
     usersRoutes
@@ -53,6 +54,12 @@ app.use(express.urlencoded({
  */
 app.use('/flights', flightsRoutes);
 app.use('/users', usersRoutes);
+
+
+app.post('/register', userControls.registerUser);
+app.post('/login', userControls.loginByCredent);
+
+
 
 app.get('/', (req, res) => {
     res.statusCode = 200;
