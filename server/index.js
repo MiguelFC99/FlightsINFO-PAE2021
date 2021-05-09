@@ -1,12 +1,14 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const cors = require('cors');
-
+const socketIo = require('socket.io');
 const swaggerJsDoc = require('swagger-jsdoc');
 
 const swaggerUI = require('swagger-ui-express'); 
 const UsersControllers = require('./controllers/usersControllers');
 const userControls = new UsersControllers();
+const TokenControllers = require('./controllers/tokenControllers');
+const tokenCtrs = new TokenControllers();
 const {
     flightsRoutes,
     usersRoutes
@@ -14,6 +16,8 @@ const {
 
 dotenv.config();
 const path = require('path');
+const token = require('./models/token');
+
 const app = express();
 const swaggerOptions = {
     swaggerDefinition: {
@@ -53,11 +57,15 @@ app.use(express.urlencoded({
  *         description: "list with all users"
  */
 app.use('/flights', flightsRoutes);
-app.use('/users', usersRoutes);
+app.use('/users',tokenCtrs.verifyToken,usersRoutes);
 
 
-app.post('/register', userControls.registerUser);
-app.post('/login', userControls.loginByCredent);
+//Authentication
+app.post('/auth/register', userControls.registerUser);
+app.post('/auth/login', userControls.loginByCredent);
+
+app.post('/auth/googlelog',userControls.googleLogin);
+app.post('/auth/googlereg',userControls.googleRegister)
 
 
 
@@ -67,13 +75,35 @@ app.get('/', (req, res) => {
 
 
 
-
 //swagger documentation
 const swaggerDoc = swaggerJsDoc(swaggerOptions);
 
 app.use('/swagger',swaggerUI.serve, swaggerUI.setup(swaggerDoc));
 
 
-app.listen(3000, function () {
+
+let server = app.listen(3000, function () {
     console.log('app is running in http://localhost:3000')
 });
+
+
+
+const mensajesList= [];
+
+const soIo = socketIo(server,{
+    cors: {
+        origin: 'http://localhost:4200',
+        methods: ['GET','POST'],
+        allowHeaders: ['Authorizacion'],
+        credentials: true
+    }
+})
+
+soIo.on('connection', socket =>{
+    socket.on('send-message', (data)=>{
+        mensajesList.push(data);
+        socket.emit('text-event',mensajesList);
+        socket.broadcast.emit('text-event',mensajesList);
+    })
+    console.log('se ha conectado al socket');
+})

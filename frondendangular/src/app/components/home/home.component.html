@@ -1,6 +1,72 @@
+<div class="container justify-content-center text-center my-4">
+  <h1>Bienvenido</h1>
+  <div class="welcome my-3" *ngIf="loggedIn">
+    <h4 class="text-secondary mb-1">{{user.userName}}</h4>
+  </div>
 
-<div class="container justify-content-center text-center my-4"> 
-    <h1>Lista de vuelos</h1>
+  <div class="container text-center" *ngIf="!loggedIn">
+    <div class="alert alert alert-info" role="alert">
+      <b>Registrate</b> asi podras tener acceso a tus vuelos, aeropuertos e itinerario.
+    </div>
+  </div>
+  <div class="fondo p-3">
+    <h3 class="mb-4 pb-2 shadow title-vuelos rounded">Vuelos por Aeropuerto</h3>
+    <div class="alert alert-secondary" role="alert">
+      Puedes consultar los vuelos de un aeropuerto mediante el <b>Código IATA</b> del aeropuerto o también por el
+      <b>Código de Vuelo</b>
+      ambos se proporcionan en el ticket de su vuelo.
+    </div>
     <app-flights-list></app-flights-list>
   </div>
-  
+
+
+
+  <section class="pt-5 pb-5">
+    <div class="my-2 text-center py-2 border shadow-lg bg-white rounded">
+      <h3 class="mb-3">Aeropuertos Sugeridos</h3>
+    </div>
+    <div class="row">
+
+      <div class="col-12">
+        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+          <div class="carousel-inner shadow-lg bg-white rounded">
+            <div class="carousel-item active">
+              <div class="row">
+
+                <div class="col-md-4 mb-3 "
+                  *ngFor="let item of airports | paginate: { itemsPerPage: 6, currentPage: pageAirports, id: 'second'}">
+                  <div class="card margin cardbg-color shadow-lg bg-white rounded">
+                    <div class="card-header d-flex align-items-center justify-content-center">
+                      <div class="prueba d-flex align-items-center justify-content-center">
+                        <i class="fas fa-road fa-3x"></i>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">{{item.airportName}}</h4>
+                      <p class="card-text letraSmall">Pais: {{item.country}}</p>
+                      <p class="card-text letraSmall">Zona horaria: {{item.timezone}} </p>
+
+
+                    </div>
+                    <div class="card-footer text-muted letraMedium d-flex align-items-center justify-content-between">
+                      Código IATA: {{item.iata_code}} 
+                      <a class="btn btn-floating btn-sm addAirportBtn" *ngIf="loggedIn"  (click)="addAirportFavList(item)"
+                        role="button" ><i class="fas fa-plus-circle fa-lg addAirportBtn"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center">
+                <pagination-controls (pageChange)="pageAirports = $event" id="second"></pagination-controls>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</div>

@@ -1,9 +1,7 @@
 'use strict';
 const express = require('express');
-const fetch = require('node-fetch');
-const dotenv = require('dotenv');
-
-dotenv.config();
+const FlightsControllers = require('./../controllers/flightControllers');
+const flightsCtrs = new FlightsControllers();
 
 const router = express();
 
@@ -14,28 +12,17 @@ const router = express();
 }
 */
 
-const urlAPI = `http://api.aviationstack.com/v1/flights?access_key=${process.env.KEY_API}&arr_iata=`;
+
+router.get('/flightsArr',flightsCtrs.getFlightsByArr);
+
+router.get('/flightsDep',flightsCtrs.getFlightsByDep);
+
+router.get('/flightsCode', flightsCtrs.getFlightsByCode);
 
 
+router.get('/airportsArr',flightsCtrs.getAirportsList);
 
-router.get('/',(req,res)=>{
-
-    let url = urlAPI + req.query.arriata; 
-    console.log(url);
-
-    //res.send(url);
-
-    fetch(url).then(response =>{
-        return response.json();
-    }).then(data => {
-        res.send(data);
-    })
-    .catch(e => {
-        res.status(400).send("todo correcto");
-    });
-});
-
-router.get('/depiata',)
+//router.get('/flightsArr',)
 
 /*
 fetch(url).then(response =>{

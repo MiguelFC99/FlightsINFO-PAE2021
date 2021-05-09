@@ -1,5 +1,12 @@
 <div class="background-login p-3">
+    
     <div class="container clearfix">
+      <div class="alert alert-warning text-center" role="alert" *ngIf="alert">
+        <p>El usuario con el que desea iniciar sesión no existe por favor <a routerLink="/register">registrate</a>!</p> 
+      </div>
+      <div class="alert alert-warning text-center" role="alert" *ngIf="alert2">
+        <p>Usuario o contraseña incorrectos!</p> 
+      </div>
       <div class="float-left " >
         <!-- Default form login -->
         <form class="text-center border border-light p-5 rounded shadow" (submit)="loginCredentials()">
@@ -27,7 +34,7 @@
           </div>
   
           <!-- Sign in button -->
-          <button class="btn btn-info btn-block my-4" >Sign in</button>
+          <button class="btn btn-info btn-block my-4">Sign in</button>
   
           <!-- Register -->
           <p>No tienes cuenta?
@@ -37,7 +44,7 @@
           <!-- Social login -->
           <p>o inicia sesión con:</p>
   
-          <a class="mx-2" role="button" (click)="googleLogin()"><i class="fab fa-google"></i></a>
+          <a class="mx-2" role="button" (click)="loginByGoogle()"><i class="fab fa-google"></i></a>
   
         </form>
         <!-- Default form login -->

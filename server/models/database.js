@@ -28,15 +28,7 @@ class Database {
             db = client.db();
             console.log('Successfully connected to MongoDB')
 
-            //const collection = db.collection('users');
-
-            /*collection.find({}).toArray((err,results)=>{
-                if(err){
-                    console.log('Could not retrieve users', err)
-                    return;
-                }
-                console.log('Users: ', results);
-            })*/
+        
         });
     }
 
@@ -56,6 +48,10 @@ class Database {
     findOne(filters){
         const collection = db.collection(this.collectionName);
         return collection.findOne(filters);
+    }
+    updateOne(filters,updateData){
+        const collection = db.collection(this.collectionName);
+        return collection.updateOne(filters,updateData);
     }
 }
 

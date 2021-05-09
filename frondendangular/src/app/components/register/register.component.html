@@ -1,5 +1,11 @@
 <div class="background-register p-3">
     <div class="container clearfix">
+      <div class="alert alert-warning text-center" role="alert" *ngIf="alert">
+        <p>El usuario con el que desea iniciar sesión ya existe, por favor <a routerLink="/login">inica sesión</a>!</p> 
+      </div>
+      <div class="alert alert-warning text-center" role="alert" *ngIf="alert2">
+        <p>Por favor, complete el formulario con información correcta</p> 
+      </div>
       <div class="float-left">
         <!-- Default form login -->
         <form [formGroup]="formReg" class="text-center border border-light p-5 rounded shadow" (submit)="formRegister()">
@@ -32,7 +38,7 @@
           </p>
           <!-- Social login -->
           <p>or sign in with:</p>
-          <a href="#" class="mx-2" role="button"><i class="fab fa-google"></i></a>
+          <a (click)="registerByGoogle()" class="mx-2" role="button"><i class="fab fa-google"></i></a>
         </form>
         <!-- Default form login -->
       </div>

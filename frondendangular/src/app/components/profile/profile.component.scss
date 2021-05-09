@@ -1,4 +1,4 @@
-.card{
+.cardbg-color{
     border-color: rgb(143, 135, 135);
 }
 
@@ -11,3 +11,36 @@
 }
 
 
+.letraSmall{
+    font-size: small;
+}
+
+.letraMedium{
+    font-size: medium;
+}
+
+.div-info{
+    height: 300px;
+}
+
+.card-header{
+    background-color: #90CAF9;
+}
+
+.prueba{
+    border: 2px solid black;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(225, 230, 221);
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.card-footer{
+    background-color: #E0E0E0;
+}
+
+.addAirportBtn{
+    background-color: #D32F2F;
+    color: white;
+}

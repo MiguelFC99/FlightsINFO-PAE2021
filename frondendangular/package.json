@@ -20,7 +20,10 @@
     "@angular/platform-browser-dynamic": "~11.2.7",
     "@angular/router": "~11.2.7",
     "angularx-social-login": "^3.5.5",
+    "ng2-order-pipe": "^0.1.5",
+    "ngx-pagination": "^5.0.0",
     "rxjs": "~6.6.0",
+    "socket.io-client": "^4.0.1",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
   },
