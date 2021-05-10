@@ -1,6 +1,5 @@
 'use strict';
 const express = require('express');
-const dotenv = require('dotenv');
 const bodyParser = require('body-parser'); 
 const {
     User,
@@ -15,7 +14,10 @@ const UsersController = require('../controllers/usersControllers');
 const usersControls = new UsersController();
 
 
-dotenv.config();
+if (process.env.NODE_ENV == 'dev') {
+    require('dotenv').config();
+  }
+  
 const multerStorage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, 'uploads')

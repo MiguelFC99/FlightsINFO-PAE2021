@@ -1,5 +1,4 @@
 const express = require('express');
-const dotenv = require('dotenv');
 const cors = require('cors');
 const socketIo = require('socket.io');
 const swaggerJsDoc = require('swagger-jsdoc');
@@ -14,7 +13,9 @@ const {
     usersRoutes
 } = require('./routes/indexRoutes');
 
-dotenv.config();
+if (process.env.NODE_ENV == 'dev') {
+    require('dotenv').config();
+  }
 
 const PORT = process.env.PORT || 3000;
 const path = require('path');

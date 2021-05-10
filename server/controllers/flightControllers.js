@@ -1,11 +1,13 @@
 const fetch = require('node-fetch');
-const dotenv = require('dotenv');
 
 
 //prueba
 const dataFile = require('./dataTest.json');
 
-dotenv.config();
+if (process.env.NODE_ENV == 'dev') {
+    require('dotenv').config();
+  }
+  
 
 const urlAPI = `http://api.aviationstack.com/v1/flights?access_key=${process.env.KEY_API}&dep_iata=`;
 const urlAPIAirports = `http://api.aviationstack.com/v1/airports?access_key=${process.env.KEY_API}`;

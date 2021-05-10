@@ -5,12 +5,9 @@ const flightsCtrs = new FlightsControllers();
 
 const router = express();
 
-//preguntar si se requiere
-/*if(process.env.NODE_ENV == 'dev'){
-    console.log("no entra")
+if (process.env.NODE_ENV == 'dev') {
     require('dotenv').config();
-}
-*/
+  }
 
 
 router.get('/flightsArr',flightsCtrs.getFlightsByArr);
