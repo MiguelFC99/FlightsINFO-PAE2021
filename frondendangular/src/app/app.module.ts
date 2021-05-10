@@ -20,6 +20,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HeaderComponent } from './components/layout/header/header.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
+import { ItinerarioComponent } from './components/itinerario/itinerario.component';
 
 
 
@@ -37,7 +38,8 @@ import { FooterComponent } from './components/layout/footer/footer.component';
     ProfileComponent,
     RegisterComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ItinerarioComponent
   ],
   imports: [
     BrowserModule,

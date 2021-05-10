@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/common/services/auth.service';
 import { FlightService } from 'src/app/common/services/flight.service';
+import { SocketIoService } from 'src/app/common/services/socket-io.service';
 import { UserService } from 'src/app/common/services/user.service';
 
 @Component({
@@ -22,9 +23,20 @@ export class HomeComponent implements OnInit {
 
   airports: any = [];
 
+  userChat = {
+    user: '',
+    text: ''
+  }
+
+  mensajesList:any;
+  eventName:string = "send-message";
+
+
+
+
 
   loggedIn: boolean = false;
-  constructor(private authService:AuthService, private userService:UserService, private flightService:FlightService) { }
+  constructor(private authService:AuthService, private userService:UserService, private flightService:FlightService, private socketIo: SocketIoService) { }
 
   ngOnInit(): void {
     this.authService.loginStatus.subscribe(status => {
@@ -34,6 +46,7 @@ export class HomeComponent implements OnInit {
     this.userService.getUserbyId().then(results => {
       console.log("resultado correcto ", results);
       this.user = results.user;
+      this.userChat.user = this.user.userName;
       this.userService.statusUs({
         userName: this.user.userName,
         usPic: this.user.picture
@@ -49,6 +62,11 @@ export class HomeComponent implements OnInit {
       console.log("error en lista de Aeropuertos: ",err);
     })
     
+
+    //SOCKET
+    this.socketIo.listen('text-event').subscribe((data)=>{
+      this.mensajesList = data;
+    })
   }
 
 
@@ -64,6 +82,10 @@ export class HomeComponent implements OnInit {
     })
   }
 
-
+  //fncion SOCKET
+  sendMessage(){
+    this.socketIo.emit(this.eventName,this.userChat)
+    this.userChat.text = '';
+  }
 
 }

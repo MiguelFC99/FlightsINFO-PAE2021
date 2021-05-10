@@ -40,7 +40,7 @@ export class ProfileComponent implements OnInit {
   favoriteFlightsList:any =[];
   favoriteAirportsList:any = [];
 
-  
+  file:any;
 
   constructor(private userService: UserService, private authService: AuthService) {}
 
@@ -101,6 +101,26 @@ export class ProfileComponent implements OnInit {
       console.log("error al eliminar aeropuerto FavList: ",err);
     })
 
+  }
+
+  selectImage(event:any){
+    if(event.target.files.length>0){
+      const file:File = event.target.files[0];
+      this.file = file;
+      console.log("holaa",file);
+    }else{
+      console.log(":C ")
+    }
+  }
+
+  sendFile(){
+    const formData = new FormData();
+    formData.append('file',this.file)
+    this.userService.sendFileItinerario(formData).then(result=>{
+      console.log("respuesta de file aws"+result);
+    }).catch(err=>{
+      console.log("error aws",err);
+    })
   }
 
 }

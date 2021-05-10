@@ -1,5 +1,7 @@
 'use strict';
 const express = require('express');
+const dotenv = require('dotenv');
+const bodyParser = require('body-parser'); 
 const {
     User,
 } = require('./../models');
@@ -7,9 +9,13 @@ const multer = require('multer');
 const multerS3 = require('multer-s3');
 const aws = require('aws-sdk');
 
+
+
 const UsersController = require('../controllers/usersControllers');
 const usersControls = new UsersController();
 
+
+dotenv.config();
 const multerStorage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, 'uploads')
@@ -32,6 +38,9 @@ const uploadFile = multer({
 
 const router = express();
 
+//router.use(bodyParser.json({limit: "50mb"}));
+//router.use(bodyParser.urlencoded({limit: "50mb", extended: true, parameterLimit:50000}));
+
 router.get('/', (req, res) => {
     User.find({}, (err, result) => {
 
@@ -39,14 +48,14 @@ router.get('/', (req, res) => {
 });
 
 const s3 = new aws.S3({
-    accessKeyId: 'AKIAYGM6GOCDJC7H2LNL',
-    secretAccessKey: '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'
+    accessKeyId: process.env.ACCESS_KEY,
+    secretAccessKey: process.env.SECRET_ACCESS_KEY
   })
 
 var upload = multer({
     storage: multerS3({
         s3: s3,
-        bucket: 'torneo-bucket-1',
+        bucket: 'flights-info-app',
         acl: 'public-read',
         metadata: function (req, file, cb) {
             cb(null, {
@@ -59,9 +68,9 @@ var upload = multer({
     })
 });
 
-router.post('/upload', upload.single('profilePic'), function (req, res, next) {
+router.post('/upload', upload.array('file',1), function (req, res, next) {
     console.log('Successfully uploaded file :)');
-    res.send('Successfully uploaded file :)')
+    res.send({respuesta: req.file})
   });
 
 

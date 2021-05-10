@@ -102,5 +102,17 @@ export class UserService {
     return this.httpClient.delete(url,{headers: hedersIn}).toPromise();
   }
 
+  sendFileItinerario(formData:any):Promise<any>{
+    const hedersIn:HttpHeaders = new HttpHeaders({
+      'content-type': 'application/json',
+      'Authorization': this.authService.getToken()
+    })
+    /*const hedersIn2:HttpHeaders = new HttpHeaders({
+      'content-type': 'multipart/form-data'
+    })*/
+    hedersIn.set('content-type','multipart/form-data');
+    const url = `${environment.apiUrl}users/upload`;
+    return this.httpClient.post(url,formData,{headers: hedersIn}).toPromise();
+  }
 
 }

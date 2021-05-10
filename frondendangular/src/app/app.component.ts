@@ -14,9 +14,8 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(){
-    this.socketIoService.connect(()=>{
+    /*this.socketIoService.connect(()=>{
       console.log("cliente conectado");
-    });
-
+    });*/
   }
 }

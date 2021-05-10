@@ -70,7 +70,7 @@ class FlightControllers {
         let url = urlAPI + req.query.arr_iata;
         console.log(url);
 
-        let dataList = dataFile.data.map(e => {
+        /*let dataList = dataFile.data.map(e => {
             return {
                 vueloNum: e.flight.iata,
                 airLine: e.airline.name,
@@ -83,11 +83,11 @@ class FlightControllers {
         })
 
 
-        res.status(230).send(dataList);
+        res.status(230).send(dataList);*/
 
 
 
-        /*fetch(url).then(response =>{
+        fetch(url).then(response =>{
             return response.json();
         }).then(data => {
             let dataList = data.data.map(e =>{
@@ -97,19 +97,20 @@ class FlightControllers {
                 salidaTime: e.departure.actual==null?"---":dateFormat(e.departure.actual),
                 llegadaTime: e.arrival.estimated==null?"---":dateFormat(e.arrival.estimated),
                 destinoName: e.arrival.airport,
-                status: statusF(e.flight_status)
+                status: statusF(e.flight_status),
+                icon: statusF(e.flight_status).icon
             }
         })
             res.status(230).send(dataList);
         })
         .catch(e => {
             res.status(400).send(e);
-        });*/
+        });
     }
     getFlightsByDep(req, res) {
         let url = urlAPI + req.query.dep_iata;
 
-        let dataList = dataFile.data.map(e => {
+       /* let dataList = dataFile.data.map(e => {
             return {
                 vueloNum: e.flight.iata,
                 airLine: e.airline.name,
@@ -122,9 +123,9 @@ class FlightControllers {
         })
 
 
-        res.status(230).send(dataList);
+        res.status(230).send(dataList);*/
 
-        /* TODO Este si funciona correcto
+        
         fetch(url).then(response => {
                 return response.json();
             }).then(data => {
@@ -143,14 +144,14 @@ class FlightControllers {
             })
             .catch(e => {
                 res.status(400).send(e);
-            });*/
+            });
     }
 
     getFlightsByCode(req, res) {
         let url = urlAPI + req.query.flight_iata;
         console.log(url);
 
-        /*fetch(url).then(response =>{
+        fetch(url).then(response =>{
             return response.json();
         }).then(data => {
             let dataList = data.data.map(e =>{
@@ -168,7 +169,7 @@ class FlightControllers {
         })
         .catch(e => {
             res.status(400).send(e);
-        });*/
+        });
 
     }
 
