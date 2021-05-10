@@ -15,6 +15,8 @@ const {
 } = require('./routes/indexRoutes');
 
 dotenv.config();
+
+const PORT = process.env.PORT || 3000;
 const path = require('path');
 const token = require('./models/token');
 
@@ -82,7 +84,7 @@ app.use('/swagger',swaggerUI.serve, swaggerUI.setup(swaggerDoc));
 
 
 
-let server = app.listen(3000, function () {
+let server = app.listen(PORT, function () {
     console.log('app is running in http://localhost:3000')
 });
 
