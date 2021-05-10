@@ -1,6 +1,7 @@
 const TokenControllers = require('./tokenControllers');
 const tokenCntrs = new TokenControllers();
-
+const dotenv = require('dotenv');
+dotenv.config();
 const ObjectId = require('mongodb').ObjectId;
 const {
   User,
@@ -15,9 +16,9 @@ const {
 } = require('google-auth-library');
 
 
-if (process.env.NODE_ENV == 'dev') {
+/*if (process.env.NODE_ENV == 'dev') {
   require('dotenv').config();
-}
+}*/
 
 
 const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID, process.env.GOOGLE_CLIENT_SECRET);

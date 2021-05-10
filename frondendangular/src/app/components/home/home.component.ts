@@ -88,4 +88,13 @@ export class HomeComponent implements OnInit {
     this.userChat.text = '';
   }
 
+
+  chat(list:any){
+    for (const i of list) {
+      if(i.user == this.user.userName){
+        i.check = 'check';
+      }
+    }
+  }
+
 }

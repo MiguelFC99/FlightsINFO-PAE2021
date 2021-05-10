@@ -76,13 +76,13 @@
     </div>
 
     <div class="">
-      <div class="container-input">
+      <div class="container-input" *ngIf="loggedIn">
         <label for="">Hola <b>{{userChat.user}}</b>... escribe algo</label>
         <input type="text" class="form-control" (change)="sendMessage()" [(ngModel)]="userChat.text">
       </div>
       <div class="mt-3 container-chat border">
         <div class="text-left" *ngFor="let i of mensajesList">
-          <div class="container-onechat col-6 border shadow-lg bg-white rounded">
+          <div class="container-onechat col-6 p-3">
             <label for=""><b>{{i.user}}</b></label>
             <span>{{i.text}} </span>
           </div>

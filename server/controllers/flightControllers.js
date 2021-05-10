@@ -1,15 +1,18 @@
 const fetch = require('node-fetch');
-
+const dotenv = require('dotenv');
+dotenv.config();
 
 //prueba
 const dataFile = require('./dataTest.json');
 
-if (process.env.NODE_ENV == 'dev') {
-    require('dotenv').config();
-  }
+/*if (process.env.NODE_ENV == 'dev') {
+    require('dotenv').config();http://api.aviationstack.com/v1/airports?access_key=459609b040fb426a382128c8576ab2d5&iata_code=GDL
+  }*/
   
 
 const urlAPI = `http://api.aviationstack.com/v1/flights?access_key=${process.env.KEY_API}&dep_iata=`;
+const urlAPIArr = `http://api.aviationstack.com/v1/flights?access_key=${process.env.KEY_API}&arr_iata=`;
+const urlAPICodeFlights = `http://api.aviationstack.com/v1/flights?access_key=${process.env.KEY_API}&flight_iata=`
 const urlAPIAirports = `http://api.aviationstack.com/v1/airports?access_key=${process.env.KEY_API}`;
 
 function statusF(status) {
@@ -69,7 +72,7 @@ console.log(statusF("diverted"));
 class FlightControllers {
 
     getFlightsByArr(req, res) {
-        let url = urlAPI + req.query.arr_iata;
+        let url = urlAPIArr + req.query.arr_iata;
         console.log(url);
 
         /*let dataList = dataFile.data.map(e => {
@@ -99,7 +102,7 @@ class FlightControllers {
                 salidaTime: e.departure.actual==null?"---":dateFormat(e.departure.actual),
                 llegadaTime: e.arrival.estimated==null?"---":dateFormat(e.arrival.estimated),
                 destinoName: e.arrival.airport,
-                status: statusF(e.flight_status),
+                status: statusF(e.flight_status).stats,
                 icon: statusF(e.flight_status).icon
             }
         })
@@ -150,8 +153,8 @@ class FlightControllers {
     }
 
     getFlightsByCode(req, res) {
-        let url = urlAPI + req.query.flight_iata;
-        console.log(url);
+        let url = urlAPICodeFlights + req.query.flight_iata;
+        console.log("entra aqui",url);
 
         fetch(url).then(response =>{
             return response.json();
@@ -167,7 +170,8 @@ class FlightControllers {
                 icon: statusF(e.flight_status).icon
             }
         })
-            res.status(230).send(dataList);
+            console.log(dataList[0]);
+            res.status(230).send([dataList[0]]);
         })
         .catch(e => {
             res.status(400).send(e);
