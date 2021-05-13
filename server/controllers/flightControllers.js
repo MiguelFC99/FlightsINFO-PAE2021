@@ -1,13 +1,13 @@
 const fetch = require('node-fetch');
-const dotenv = require('dotenv');
-dotenv.config();
+//const dotenv = require('dotenv');
+//dotenv.config();
 
 //prueba
 const dataFile = require('./dataTest.json');
 
-/*if (process.env.NODE_ENV == 'dev') {
-    require('dotenv').config();http://api.aviationstack.com/v1/airports?access_key=459609b040fb426a382128c8576ab2d5&iata_code=GDL
-  }*/
+if (process.env.NODE_ENV == 'dev') {
+    require('dotenv').config();
+  }
   
 
 const urlAPI = `http://api.aviationstack.com/v1/flights?access_key=${process.env.KEY_API}&dep_iata=`;
@@ -201,6 +201,25 @@ class FlightControllers {
 
     }
 
+    getOneAirport(req,res){
+        let url = urlAPIAirports+"&iata_code="+req.query.iata_one_airp
+        console.log("entra a uno air",url);
+        fetch(url).then(response =>{
+            return response.json();
+        }).then(data => {
+            console.log(data.data[0].iata_code);
+            let dataList = {
+                iata_code: data.data[0].iata_code,
+                airportName: data.data[0].airport_name,
+                country: data.data[0].country_name,
+                timezone: data.data[0].timezone
+            }
+            res.status(230).send([dataList]);
+        })
+        .catch(e => {
+            res.status(400).send(e);
+        });
+    }
 
 }
 

@@ -1,7 +1,7 @@
 const moment = require('moment');
 const jws = require('jwt-simple');
-const dotenv = require('dotenv');
-dotenv.config();
+//const dotenv = require('dotenv');
+//dotenv.config();
 const {
     Token,
     User
@@ -9,9 +9,9 @@ const {
 const token = require('../models/token');
 const ObjectId= require('mongodb').ObjectId;
 
-/*if (process.env.NODE_ENV == 'dev') {
+if (process.env.NODE_ENV == 'dev') {
     require('dotenv').config();
-}*/
+}
 
 
 class TokenControllers {

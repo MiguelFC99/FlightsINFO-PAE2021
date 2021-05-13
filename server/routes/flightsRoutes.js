@@ -1,15 +1,15 @@
 'use strict';
 const express = require('express');
-const dotenv = require('dotenv');
-dotenv.config();
+//const dotenv = require('dotenv');
+//dotenv.config();
 const FlightsControllers = require('./../controllers/flightControllers');
 const flightsCtrs = new FlightsControllers();
 
 const router = express();
 
-/*if (process.env.NODE_ENV == 'dev') {
+if (process.env.NODE_ENV == 'dev') {
     require('dotenv').config();
-  }*/
+  }
 
 
 router.get('/flightsArr',flightsCtrs.getFlightsByArr);
@@ -20,6 +20,8 @@ router.get('/flightsCode', flightsCtrs.getFlightsByCode);
 
 
 router.get('/airportsArr',flightsCtrs.getAirportsList);
+
+router.get('/airport',flightsCtrs.getOneAirport)
 
 //router.get('/flightsArr',)
 

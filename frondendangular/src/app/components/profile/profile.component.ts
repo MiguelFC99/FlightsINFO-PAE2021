@@ -41,7 +41,7 @@ export class ProfileComponent implements OnInit {
   favoriteAirportsList:any = [];
 
   file:any;
-
+  linksList:any = []
   constructor(private userService: UserService, private authService: AuthService) {}
 
   ngOnInit(): void {
@@ -117,6 +117,7 @@ export class ProfileComponent implements OnInit {
     const formData = new FormData();
     formData.append('file',this.file)
     this.userService.sendFileItinerario(formData).then(result=>{
+      this.linksList = (result);
       console.log("respuesta de file aws"+result);
     }).catch(err=>{
       console.log("error aws",err);

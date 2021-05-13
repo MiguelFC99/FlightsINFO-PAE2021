@@ -1,3 +1,4 @@
+import { UpperCasePipe } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/common/services/auth.service';
 import { FlightService } from 'src/app/common/services/flight.service';
@@ -12,6 +13,7 @@ import { UserService } from 'src/app/common/services/user.service';
 export class HomeComponent implements OnInit {
 
   pageAirports:number = 1;
+  pageChats:number = 1;
   user: any = {
     userName: "",
     lastName: "",
@@ -25,12 +27,14 @@ export class HomeComponent implements OnInit {
 
   userChat = {
     user: '',
-    text: ''
+    text: '',
+    email: '',
+    image: ''
   }
 
   mensajesList:any;
   eventName:string = "send-message";
-
+  iataAir = '';
 
 
 
@@ -47,6 +51,9 @@ export class HomeComponent implements OnInit {
       console.log("resultado correcto ", results);
       this.user = results.user;
       this.userChat.user = this.user.userName;
+      this.userChat.email = this.user.email;
+      this.userChat.image = this.user.picture
+      console.log("imagen aqui ",this.user.picture)
       this.userService.statusUs({
         userName: this.user.userName,
         usPic: this.user.picture
@@ -84,17 +91,22 @@ export class HomeComponent implements OnInit {
 
   //fncion SOCKET
   sendMessage(){
+    console.log("user aqui",this.user,this.userChat);
     this.socketIo.emit(this.eventName,this.userChat)
     this.userChat.text = '';
+    
   }
 
-
-  chat(list:any){
-    for (const i of list) {
-      if(i.user == this.user.userName){
-        i.check = 'check';
-      }
-    }
+  buscarAero(){
+    console.log(this.iataAir);
+    this.flightService.getOneAirports("?iata_one_airp=" + this.iataAir.toUpperCase()).then(result=>{
+      console.log("Ok lista de aeropuertos: ");
+      this.airports = result;
+      this.iataAir = '';
+      console.log(this.airports);
+    }).catch(err=>{
+      console.log("error en lista de Aeropuertos: ",err);
+      this.iataAir = '';
+    })
   }
-
 }

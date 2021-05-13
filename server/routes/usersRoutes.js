@@ -1,8 +1,8 @@
 'use strict';
 const express = require('express');
 const bodyParser = require('body-parser'); 
-const dotenv = require('dotenv');
-dotenv.config();
+//const dotenv = require('dotenv');
+//dotenv.config();
 const {
     User,
 } = require('./../models');
@@ -15,10 +15,10 @@ const aws = require('aws-sdk');
 const UsersController = require('../controllers/usersControllers');
 const usersControls = new UsersController();
 
-
-/*if (process.env.NODE_ENV == 'dev') {
+const linkList =[]
+if (process.env.NODE_ENV == 'dev') {
     require('dotenv').config();
-  }*/
+  }
   
 const multerStorage = multer.diskStorage({
     destination: (req, file, cb) => {
@@ -74,7 +74,9 @@ var upload = multer({
 
 router.post('/upload', upload.array('file',1), function (req, res, next) {
     console.log('Successfully uploaded file :)');
-    res.send({respuesta: req.file})
+    console.log(req)
+    linkList.unshift({namefile: req.files[0].originalname,link: req.files[0].location});
+    res.send(linkList)
   });
 
 
