@@ -24,6 +24,14 @@
   <section class="pt-5 pb-5">
     <div class="my-2 text-center py-2 border shadow-lg bg-white rounded">
       <h3 class="mb-3">Aeropuertos Sugeridos</h3>
+      <div class="col-5 ">
+        <div class="d-flex justify-content-start">
+          <label for="buscarAeropueto" class="text-left">Buscar por <b>IATA</b> de aeropuerto</label><br>
+        </div>
+        <div class="d-flex justify-content-start">
+          <input name="buscarAeropueto" type="text" class="form-control col-8 " placeholder="Código IATA" (change)="buscarAero()" [(ngModel)]="iataAir">
+        </div>
+      </div>
     </div>
     <div class="row">
 
@@ -70,26 +78,72 @@
   </section>
 
 
-  <section class="pt-5 pb-5">
-    <div class="my-2 text-center py-2 border shadow-lg bg-white rounded">
-      <h3 class="mb-3">Chat global</h3>
+  <section class="pt-4 pb-4">
+    <div class="mt-2 mb-4 p border shadow-lg bg-white rounded">
+      <h3 class="mb-3">Chat Global</h3>
     </div>
+    <div class="container-input" *ngIf="loggedIn">
+      <label *ngIf="loggedIn" for="">Hola <b>{{userChat.user}}</b>... escribe algo</label>
+      <input type="text" class="form-control" (change)="sendMessage()" [(ngModel)]="userChat.text">
+    </div>
+    <div class="backChat p-3 shadow-lg rounded border ">
 
-    <div class="">
-      <div class="container-input">
+      <ul class="chatUl"
+        *ngFor="let i of mensajesList | paginate: { itemsPerPage: 6, currentPage: pageChats, id: 'cuatro'}">
+        <li class="my-2 shadow-lg rounded p-1 otherCHat border" *ngIf="i.email !== user.email ">
+          <div class="row chatcompleto">
+            <div class="imagen-user">
+              <div class="col">
+                <img src="https://www.bootdey.com/img/Content/avatar/avatar3.png " width="40" height="40"
+                  class="rounded-circle">
+              </div>
+              <div class="col">
+                <div class="letraSmall"><b>{{i.user}}</b></div>
+              </div>
+            </div>
+            <div class="align-middle align-self-center">
+              {{i.text}}
+            </div>
+          </div>
+        </li>
+        <li class="my-2 d-flex justify-content-end p-1 shadow-lg rounded myChat border" *ngIf="i.email === user.email ">
+          <div class="row chatcompleto">
+            <div class="align-middle align-self-center">
+              {{i.text}}
+            </div>
+            <div class="imagen-user">
+              <div class="col">
+                <img src="{{i.image}}" width="40" height="40" class="rounded-circle">
+              </div>
+              <div class="col">
+                <div class="letraSmall"><b>{{i.user}}</b></div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="text-center">
+      <pagination-controls (pageChange)="pageChats = $event" id="cuatro"></pagination-controls>
+    </div>
+    <!--<div class="">
+      <div class="container-input" *ngIf="loggedIn">
         <label for="">Hola <b>{{userChat.user}}</b>... escribe algo</label>
         <input type="text" class="form-control" (change)="sendMessage()" [(ngModel)]="userChat.text">
       </div>
-      <div class="mt-3 container-chat border">
-        <div class="text-left" *ngFor="let i of mensajesList">
-          <div class="container-onechat col-6 border shadow-lg bg-white rounded">
-            <label for=""><b>{{i.user}}</b></label>
+      <div class="mt-3 border">
+        <div class="" *ngFor="let i of mensajesList">
+          <div class="container-onechat col-6 p-3 text-left my-2 rounded wit" *ngIf="i.email !== user.email ">
+            <label for=""><b>{{i.user}} </b></label>
             <span>{{i.text}} </span>
           </div>
-
+          <div class="container-onechat col-6 p-3 text-right user my-2 rounded wit" *ngIf="i.email === user.email ">
+            <label for=""><b>{{i.user}}: </b></label>
+            <span>  {{i.text}} </span>
+          </div>
         </div>
       </div>
-    </div>
+    </div>-->
   </section>
 
 

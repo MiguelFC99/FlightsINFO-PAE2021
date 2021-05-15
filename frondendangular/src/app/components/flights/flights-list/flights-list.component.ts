@@ -55,13 +55,25 @@ export class FlightsListComponent implements OnInit {
       let data = this.formSearch.value;
       if(data.codeVorIATA == '1' && data.depArr =='1'){
         console.log("?dep_iata="+ data.buscar.toUpperCase());
-        //this.flightService.getFlightsByDep();
+        this.flightService.getFlightsByDep("?dep_iata="+ data.buscar.toUpperCase()).then(result=>{
+          this.flightsDepList = result;
+        }).catch(err=>{
+          console.log(err);
+        });
       }else if(data.codeVorIATA == '1' && data.depArr =='0'){
         console.log("?arr_iata="+ data.buscar.toUpperCase());
-        //this.flightService.getFlightsByArr();
+        this.flightService.getFlightsByArr("?arr_iata="+ data.buscar.toUpperCase()).then(result=>{
+          this.flightsDepList = result;
+        }).catch(err=>{
+          console.log(err);
+        });
       }else{
         console.log("?flight_iata="+ data.buscar.toUpperCase());
-        //this.flightService.getFlightsByArr();
+        this.flightService.getFlightsByCode("?flight_iata="+ data.buscar.toUpperCase()).then(result=>{
+          this.flightsDepList = result;
+        }).catch(err=>{
+          console.log(err);
+        });
       }
       
     }else{
