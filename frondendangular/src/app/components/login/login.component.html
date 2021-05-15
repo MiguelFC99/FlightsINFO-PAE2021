@@ -1,0 +1,59 @@
+<div class="background-login p-3">
+    
+    <div class="container clearfix">
+      <div class="alert alert-warning text-center" role="alert" *ngIf="alert">
+        <p>El usuario con el que desea iniciar sesión no existe por favor <a routerLink="/register">registrate</a>!</p> 
+      </div>
+      <div class="alert alert-warning text-center" role="alert" *ngIf="alert2">
+        <p>Usuario o contraseña incorrectos!</p> 
+      </div>
+      <div class="float-left " >
+        <!-- Default form login -->
+        <form class="text-center border border-light p-5 rounded shadow" (submit)="loginCredentials()">
+  
+          <p class="h4 mb-4">Sign in</p>
+  
+          <!-- Email -->
+          <input type="email" [(ngModel)]="credentials.email" name="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+  
+          <!-- Password -->
+          <input type="password" [(ngModel)]="credentials.password" name="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+  
+          <div class="d-flex justify-content-around">
+            <div>
+              <!-- Remember me -->
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                <label class="custom-control-label" for="defaultLoginFormRemember">Recordar me</label>
+              </div>
+            </div>
+            <div class="mx-2">
+              <!-- Forgot password -->
+              <a href="">Olvidaste tu contraseña?</a>
+            </div>
+          </div>
+  
+          <!-- Sign in button -->
+          <button class="btn btn-info btn-block my-4">Sign in</button>
+  
+          <!-- Register -->
+          <p>No tienes cuenta?
+            <a routerLink="/register">Registrate</a>
+          </p>
+  
+          <!-- Social login -->
+          <p>o inicia sesión con:</p>
+  
+          <a class="mx-2" role="button" (click)="loginByGoogle()"><i class="fab fa-google"></i></a>
+  
+        </form>
+        <!-- Default form login -->
+      </div>
+  
+      <div class="float-right">
+      </div>
+  
+    </div>
+  </div>
+  
+  <router-outlet></router-outlet>

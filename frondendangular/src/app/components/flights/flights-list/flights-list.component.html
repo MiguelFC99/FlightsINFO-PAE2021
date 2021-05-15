@@ -1,0 +1,75 @@
+<div class="searchList">
+  <form class="form" [formGroup]="formSearch" (submit)="formBuscar()" id="formchido">
+    <div class="my-3">
+      <div class="d-flex justify-content-center my-1 input-group mb-3">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="codeVorIATA" formControlName="codeVorIATA" id="iata" value="1">
+          <label class="form-check-label" for="iata">Código IATA</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="codeVorIATA" formControlName="codeVorIATA" id="codigoVuelo" value="0">
+          <label class="form-check-label" for="codigoVuelo">Código de Vuelo</label>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center my-1 input-group mb-3">
+        <input class="form-control col-9" type="search" name="buscar" formControlName="buscar" placeholder="Search" aria-label="Search">
+      </div>
+      <div class="d-flex justify-content-center">
+        <button class="btn btn-success col-9" type="submit">Search</button>
+      </div>
+    </div>
+    <div class="d-flex justify-content-left mx-3 my-2">
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="depArr" formControlName="depArr" id="salida" value="1">
+        <label class="form-check-label" for="salida">Salidas</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="depArr" formControlName="depArr" id="llegada" value="0" checked>
+        <label class="form-check-label" for="llegada">Llegadas</label>
+
+      </div>
+    </div>
+    <div class="alert alert-warning" *ngIf="inputBuscar" role="alert">
+      Por favor introduce un <b>Código IATA</b> de al aeropuerto o el <b>Código de Vuelo</b>
+    </div>
+
+  </form>
+</div>
+
+<div class="table-responsive">
+  <table class="table ">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col" (click)="sort('vueloNum')">Vuelo&nbsp;<i class="fa fa-sort"></i> </th>
+        <th scope="col" (click)="sort('airLine')">Aerolínea&nbsp;<i class="fa fa-sort"></i></th>
+        <th scope="col">Salida</th>
+        <th scope="col">Llegada</th>
+        <th scope="col">Destino</th>
+        <th scope="col">Estatus</th>
+        <th scope="col" *ngIf="loggedIn">add</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="fila"
+        *ngFor="let item of flightsDepList | orderBy: key: reverse | paginate: { itemsPerPage: 10, currentPage: pageActual, id:'first'}">
+        <th scope="row">{{item.vueloNum}} </th>
+        <td>{{item.airLine}} </td>
+        <td>{{item.salidaTime}} </td>
+        <td>{{item.llegadaTime}} </td>
+        <td>{{item.destinoName}} </td>
+        <td >
+          <span class=" status" [id]="item.status">
+            <i [class]="item.icon"></i>
+            <span>{{item.status}} </span>
+          </span>
+        </td>
+        <td *ngIf="loggedIn">
+          <button type="button" class="btn btn-primary btn-sm " (click)="addItmFList(item)" ><i class="fas fa-plus"></i></button>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+  <pagination-controls (pageChange)="pageActual = $event" id="first"></pagination-controls>
+
+</div>

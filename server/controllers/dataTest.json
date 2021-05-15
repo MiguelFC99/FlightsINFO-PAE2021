@@ -1,0 +1,4987 @@
+{
+    "pagination": {
+        "limit": 100,
+        "offset": 0,
+        "count": 100,
+        "total": 354
+    },
+    "data": [
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2021-04-28T10:55:00+00:00",
+                "estimated": "2021-04-28T10:55:00+00:00",
+                "actual": "2021-04-28T10:41:00+00:00",
+                "estimated_runway": "2021-04-28T10:41:00+00:00",
+                "actual_runway": "2021-04-28T10:41:00+00:00"
+            },
+            "arrival": {
+                "airport": "Ted Stevens Anchorage International Airport",
+                "timezone": "America/Anchorage",
+                "iata": "ANC",
+                "icao": "PANC",
+                "terminal": "S",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T15:25:00+00:00",
+                "estimated": "2021-04-28T15:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Cathay Pacific",
+                "iata": "CX",
+                "icao": "CPA"
+            },
+            "flight": {
+                "number": "97",
+                "iata": "CX97",
+                "icao": "CPA97",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B11",
+                "delay": 7,
+                "scheduled": "2021-04-28T14:26:00+00:00",
+                "estimated": "2021-04-28T14:26:00+00:00",
+                "actual": "2021-04-28T14:32:00+00:00",
+                "estimated_runway": "2021-04-28T14:32:00+00:00",
+                "actual_runway": "2021-04-28T14:32:00+00:00"
+            },
+            "arrival": {
+                "airport": "Hartsfield-jackson Atlanta International",
+                "timezone": "America/New_York",
+                "iata": "ATL",
+                "icao": "KATL",
+                "terminal": "I",
+                "gate": "F5",
+                "baggage": "8",
+                "delay": null,
+                "scheduled": "2021-04-28T18:51:00+00:00",
+                "estimated": "2021-04-28T18:51:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air France",
+                "iata": "AF",
+                "icao": "AFR"
+            },
+            "flight": {
+                "number": "5754",
+                "iata": "AF5754",
+                "icao": "AFR5754",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "1804",
+                    "flight_iata": "dl1804",
+                    "flight_icao": "dal1804"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B11",
+                "delay": 7,
+                "scheduled": "2021-04-28T14:26:00+00:00",
+                "estimated": "2021-04-28T14:26:00+00:00",
+                "actual": "2021-04-28T14:32:00+00:00",
+                "estimated_runway": "2021-04-28T14:32:00+00:00",
+                "actual_runway": "2021-04-28T14:32:00+00:00"
+            },
+            "arrival": {
+                "airport": "Hartsfield-jackson Atlanta International",
+                "timezone": "America/New_York",
+                "iata": "ATL",
+                "icao": "KATL",
+                "terminal": "I",
+                "gate": "F5",
+                "baggage": "8",
+                "delay": null,
+                "scheduled": "2021-04-28T18:51:00+00:00",
+                "estimated": "2021-04-28T18:51:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "5338",
+                "iata": "AM5338",
+                "icao": "AMX5338",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "1804",
+                    "flight_iata": "dl1804",
+                    "flight_icao": "dal1804"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B11",
+                "delay": 7,
+                "scheduled": "2021-04-28T14:26:00+00:00",
+                "estimated": "2021-04-28T14:26:00+00:00",
+                "actual": "2021-04-28T14:32:00+00:00",
+                "estimated_runway": "2021-04-28T14:32:00+00:00",
+                "actual_runway": "2021-04-28T14:32:00+00:00"
+            },
+            "arrival": {
+                "airport": "Hartsfield-jackson Atlanta International",
+                "timezone": "America/New_York",
+                "iata": "ATL",
+                "icao": "KATL",
+                "terminal": "I",
+                "gate": "F5",
+                "baggage": "8",
+                "delay": null,
+                "scheduled": "2021-04-28T18:51:00+00:00",
+                "estimated": "2021-04-28T18:51:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "1804",
+                "iata": "DL1804",
+                "icao": "DAL1804",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B11",
+                "delay": 7,
+                "scheduled": "2021-04-28T14:26:00+00:00",
+                "estimated": "2021-04-28T14:26:00+00:00",
+                "actual": "2021-04-28T14:32:00+00:00",
+                "estimated_runway": "2021-04-28T14:32:00+00:00",
+                "actual_runway": "2021-04-28T14:32:00+00:00"
+            },
+            "arrival": {
+                "airport": "Hartsfield-jackson Atlanta International",
+                "timezone": "America/New_York",
+                "iata": "ATL",
+                "icao": "KATL",
+                "terminal": "I",
+                "gate": "F5",
+                "baggage": "8",
+                "delay": null,
+                "scheduled": "2021-04-28T18:51:00+00:00",
+                "estimated": "2021-04-28T18:51:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Korean Air",
+                "iata": "KE",
+                "icao": "KAL"
+            },
+            "flight": {
+                "number": "7584",
+                "iata": "KE7584",
+                "icao": "KAL7584",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "1804",
+                    "flight_iata": "dl1804",
+                    "flight_icao": "dal1804"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B11",
+                "delay": 7,
+                "scheduled": "2021-04-28T14:26:00+00:00",
+                "estimated": "2021-04-28T14:26:00+00:00",
+                "actual": "2021-04-28T14:32:00+00:00",
+                "estimated_runway": "2021-04-28T14:32:00+00:00",
+                "actual_runway": "2021-04-28T14:32:00+00:00"
+            },
+            "arrival": {
+                "airport": "Hartsfield-jackson Atlanta International",
+                "timezone": "America/New_York",
+                "iata": "ATL",
+                "icao": "KATL",
+                "terminal": "I",
+                "gate": "F5",
+                "baggage": "8",
+                "delay": null,
+                "scheduled": "2021-04-28T18:51:00+00:00",
+                "estimated": "2021-04-28T18:51:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "KLM",
+                "iata": "KL",
+                "icao": "KLM"
+            },
+            "flight": {
+                "number": "5837",
+                "iata": "KL5837",
+                "icao": "KLM5837",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "1804",
+                    "flight_iata": "dl1804",
+                    "flight_icao": "dal1804"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2021-04-28T05:40:00+00:00",
+                "estimated": "2021-04-28T05:40:00+00:00",
+                "actual": "2021-04-28T05:09:00+00:00",
+                "estimated_runway": "2021-04-28T05:09:00+00:00",
+                "actual_runway": "2021-04-28T05:09:00+00:00"
+            },
+            "arrival": {
+                "airport": "Hartsfield-jackson Atlanta International",
+                "timezone": "America/New_York",
+                "iata": "ATL",
+                "icao": "KATL",
+                "terminal": "I",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T10:10:00+00:00",
+                "estimated": "2021-04-28T10:10:00+00:00",
+                "actual": "2021-04-28T08:53:00+00:00",
+                "estimated_runway": "2021-04-28T08:53:00+00:00",
+                "actual_runway": "2021-04-28T08:53:00+00:00"
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "8917",
+                "iata": "QR8917",
+                "icao": "QTR8917",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "A7-BFX",
+                "iata": "B77L",
+                "icao": "B77L",
+                "icao24": "06A30B"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B12",
+                "delay": 2,
+                "scheduled": "2021-04-28T08:38:00+00:00",
+                "estimated": "2021-04-28T08:38:00+00:00",
+                "actual": "2021-04-28T08:40:00+00:00",
+                "estimated_runway": "2021-04-28T08:40:00+00:00",
+                "actual_runway": "2021-04-28T08:40:00+00:00"
+            },
+            "arrival": {
+                "airport": "Ciudad Obregon",
+                "timezone": "America/Hermosillo",
+                "iata": "CEN",
+                "icao": "MMCN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T08:27:00+00:00",
+                "estimated": "2021-04-28T08:27:00+00:00",
+                "actual": "2021-04-28T08:08:00+00:00",
+                "estimated_runway": "2021-04-28T08:08:00+00:00",
+                "actual_runway": "2021-04-28T08:08:00+00:00"
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "684",
+                "iata": "Y4684",
+                "icao": "VOI684",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "E42",
+                "delay": 13,
+                "scheduled": "2021-04-28T07:02:00+00:00",
+                "estimated": "2021-04-28T07:02:00+00:00",
+                "actual": "2021-04-28T07:14:00+00:00",
+                "estimated_runway": "2021-04-28T07:14:00+00:00",
+                "actual_runway": "2021-04-28T07:14:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T08:25:00+00:00",
+                "estimated": "2021-04-28T08:25:00+00:00",
+                "actual": "2021-04-28T08:06:00+00:00",
+                "estimated_runway": "2021-04-28T08:06:00+00:00",
+                "actual_runway": "2021-04-28T08:06:00+00:00"
+            },
+            "airline": {
+                "name": "Aerolineas Argentinas",
+                "iata": "AR",
+                "icao": "ARG"
+            },
+            "flight": {
+                "number": "7421",
+                "iata": "AR7421",
+                "icao": "ARG7421",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "205",
+                    "flight_iata": "am205",
+                    "flight_icao": "amx205"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "A1",
+                "delay": 23,
+                "scheduled": "2021-04-28T06:30:00+00:00",
+                "estimated": "2021-04-28T06:30:00+00:00",
+                "actual": "2021-04-28T06:53:00+00:00",
+                "estimated_runway": "2021-04-28T06:53:00+00:00",
+                "actual_runway": "2021-04-28T06:53:00+00:00"
+            },
+            "arrival": {
+                "airport": "Abraham Gonzalez International",
+                "timezone": "America/Ojinaga",
+                "iata": "CJS",
+                "icao": "MMCS",
+                "terminal": "A",
+                "gate": null,
+                "baggage": null,
+                "delay": 6,
+                "scheduled": "2021-04-28T07:35:00+00:00",
+                "estimated": "2021-04-28T07:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "VivaAerobus",
+                "iata": "VB",
+                "icao": "VIV"
+            },
+            "flight": {
+                "number": "3328",
+                "iata": "VB3328",
+                "icao": "VIV3328",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "E45",
+                "delay": 30,
+                "scheduled": "2021-04-28T06:02:00+00:00",
+                "estimated": "2021-04-28T06:02:00+00:00",
+                "actual": "2021-04-28T06:32:00+00:00",
+                "estimated_runway": "2021-04-28T06:32:00+00:00",
+                "actual_runway": "2021-04-28T06:32:00+00:00"
+            },
+            "arrival": {
+                "airport": "Abraham Gonzalez International",
+                "timezone": "America/Ojinaga",
+                "iata": "CJS",
+                "icao": "MMCS",
+                "terminal": "A",
+                "gate": null,
+                "baggage": null,
+                "delay": 3,
+                "scheduled": "2021-04-28T07:12:00+00:00",
+                "estimated": "2021-04-28T07:12:00+00:00",
+                "actual": "2021-04-28T07:14:00+00:00",
+                "estimated_runway": "2021-04-28T07:14:00+00:00",
+                "actual_runway": "2021-04-28T07:14:00+00:00"
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "626",
+                "iata": "Y4626",
+                "icao": "VOI626",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "E42",
+                "delay": 13,
+                "scheduled": "2021-04-28T07:02:00+00:00",
+                "estimated": "2021-04-28T07:02:00+00:00",
+                "actual": "2021-04-28T07:14:00+00:00",
+                "estimated_runway": "2021-04-28T07:14:00+00:00",
+                "actual_runway": "2021-04-28T07:14:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T08:25:00+00:00",
+                "estimated": "2021-04-28T08:25:00+00:00",
+                "actual": "2021-04-28T08:06:00+00:00",
+                "estimated_runway": "2021-04-28T08:06:00+00:00",
+                "actual_runway": "2021-04-28T08:06:00+00:00"
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "9130",
+                "iata": "DL9130",
+                "icao": "DAL9130",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "205",
+                    "flight_iata": "am205",
+                    "flight_icao": "amx205"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D35",
+                "delay": 14,
+                "scheduled": "2021-04-28T09:20:00+00:00",
+                "estimated": "2021-04-28T09:20:00+00:00",
+                "actual": "2021-04-28T09:34:00+00:00",
+                "estimated_runway": "2021-04-28T09:34:00+00:00",
+                "actual_runway": "2021-04-28T09:34:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "64",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T10:40:00+00:00",
+                "estimated": "2021-04-28T10:40:00+00:00",
+                "actual": "2021-04-28T10:28:00+00:00",
+                "estimated_runway": "2021-04-28T10:28:00+00:00",
+                "actual_runway": "2021-04-28T10:28:00+00:00"
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "7978",
+                "iata": "DL7978",
+                "icao": "DAL7978",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "215",
+                    "flight_iata": "am215",
+                    "flight_icao": "amx215"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D36",
+                "delay": 10,
+                "scheduled": "2021-04-28T21:50:00+00:00",
+                "estimated": "2021-04-28T21:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Fedl De Bachigualato",
+                "timezone": "America/Mazatlan",
+                "iata": "CUL",
+                "icao": "MMCL",
+                "terminal": "A",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T22:10:00+00:00",
+                "estimated": "2021-04-28T22:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "670",
+                "iata": "Y4670",
+                "icao": "VOI670",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D33",
+                "delay": 6,
+                "scheduled": "2021-04-28T11:10:00+00:00",
+                "estimated": "2021-04-28T11:10:00+00:00",
+                "actual": "2021-04-28T11:15:00+00:00",
+                "estimated_runway": "2021-04-28T11:15:00+00:00",
+                "actual_runway": "2021-04-28T11:15:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "70",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T12:30:00+00:00",
+                "estimated": "2021-04-28T12:30:00+00:00",
+                "actual": "2021-04-28T12:10:00+00:00",
+                "estimated_runway": "2021-04-28T12:10:00+00:00",
+                "actual_runway": "2021-04-28T12:10:00+00:00"
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "223",
+                "iata": "AM223",
+                "icao": "AMX223",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D32",
+                "delay": 28,
+                "scheduled": "2021-04-28T13:20:00+00:00",
+                "estimated": "2021-04-28T13:20:00+00:00",
+                "actual": "2021-04-28T13:47:00+00:00",
+                "estimated_runway": "2021-04-28T13:47:00+00:00",
+                "actual_runway": "2021-04-28T13:47:00+00:00"
+            },
+            "arrival": {
+                "airport": "Fedl De Bachigualato",
+                "timezone": "America/Mazatlan",
+                "iata": "CUL",
+                "icao": "MMCL",
+                "terminal": "A",
+                "gate": null,
+                "baggage": null,
+                "delay": 7,
+                "scheduled": "2021-04-28T13:40:00+00:00",
+                "estimated": "2021-04-28T13:40:00+00:00",
+                "actual": "2021-04-28T13:46:00+00:00",
+                "estimated_runway": "2021-04-28T13:46:00+00:00",
+                "actual_runway": "2021-04-28T13:46:00+00:00"
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "690",
+                "iata": "Y4690",
+                "icao": "VOI690",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D35",
+                "delay": 10,
+                "scheduled": "2021-04-28T15:36:00+00:00",
+                "estimated": "2021-04-28T15:36:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T18:25:00+00:00",
+                "estimated": "2021-04-28T18:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air France",
+                "iata": "AF",
+                "icao": "AFR"
+            },
+            "flight": {
+                "number": "5576",
+                "iata": "AF5576",
+                "icao": "AFR5576",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "584",
+                    "flight_iata": "am584",
+                    "flight_icao": "amx584"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D35",
+                "delay": 10,
+                "scheduled": "2021-04-28T15:36:00+00:00",
+                "estimated": "2021-04-28T15:36:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T18:25:00+00:00",
+                "estimated": "2021-04-28T18:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "584",
+                "iata": "AM584",
+                "icao": "AMX584",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2021-04-28T05:10:00+00:00",
+                "estimated": "2021-04-28T05:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T06:50:00+00:00",
+                "estimated": "2021-04-28T06:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "AeroUnion",
+                "iata": "6R",
+                "icao": "TNO"
+            },
+            "flight": {
+                "number": "301",
+                "iata": "6R301",
+                "icao": "TNO301",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D34",
+                "delay": 7,
+                "scheduled": "2021-04-28T07:30:00+00:00",
+                "estimated": "2021-04-28T07:30:00+00:00",
+                "actual": "2021-04-28T07:36:00+00:00",
+                "estimated_runway": "2021-04-28T07:36:00+00:00",
+                "actual_runway": "2021-04-28T07:36:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T10:17:00+00:00",
+                "estimated": "2021-04-28T10:17:00+00:00",
+                "actual": "2021-04-28T09:53:00+00:00",
+                "estimated_runway": "2021-04-28T09:53:00+00:00",
+                "actual_runway": "2021-04-28T09:53:00+00:00"
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "588",
+                "iata": "AM588",
+                "icao": "AMX588",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": null,
+                "gate": null,
+                "delay": 18,
+                "scheduled": "2021-04-28T04:05:00+00:00",
+                "estimated": "2021-04-28T04:05:00+00:00",
+                "actual": "2021-04-28T04:22:00+00:00",
+                "estimated_runway": "2021-04-28T04:22:00+00:00",
+                "actual_runway": "2021-04-28T04:22:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": 1,
+                "scheduled": "2021-04-28T05:22:00+00:00",
+                "estimated": "2021-04-28T05:22:00+00:00",
+                "actual": "2021-04-28T05:22:00+00:00",
+                "estimated_runway": "2021-04-28T05:22:00+00:00",
+                "actual_runway": "2021-04-28T05:22:00+00:00"
+            },
+            "airline": {
+                "name": "AeroUnion",
+                "iata": "6R",
+                "icao": "TNO"
+            },
+            "flight": {
+                "number": "1300",
+                "iata": "6R1300",
+                "icao": "TNO1300",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D32",
+                "delay": 7,
+                "scheduled": "2021-04-28T11:55:00+00:00",
+                "estimated": "2021-04-28T11:55:00+00:00",
+                "actual": "2021-04-28T12:02:00+00:00",
+                "estimated_runway": "2021-04-28T12:02:00+00:00",
+                "actual_runway": "2021-04-28T12:02:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T14:31:00+00:00",
+                "estimated": "2021-04-28T14:31:00+00:00",
+                "actual": "2021-04-28T14:22:00+00:00",
+                "estimated_runway": "2021-04-28T14:22:00+00:00",
+                "actual_runway": "2021-04-28T14:22:00+00:00"
+            },
+            "airline": {
+                "name": "Frontier Airlines",
+                "iata": "F9",
+                "icao": "FFT"
+            },
+            "flight": {
+                "number": "6606",
+                "iata": "F96606",
+                "icao": "FFT6606",
+                "codeshared": {
+                    "airline_name": "volaris",
+                    "airline_iata": "y4",
+                    "airline_icao": "voi",
+                    "flight_number": "606",
+                    "flight_iata": "y4606",
+                    "flight_icao": "voi606"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D32",
+                "delay": null,
+                "scheduled": "2021-04-28T20:01:00+00:00",
+                "estimated": "2021-04-28T20:01:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T21:30:00+00:00",
+                "estimated": "2021-04-28T21:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "KLM",
+                "iata": "KL",
+                "icao": "KLM"
+            },
+            "flight": {
+                "number": "8971",
+                "iata": "KL8971",
+                "icao": "KLM8971",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "257",
+                    "flight_iata": "am257",
+                    "flight_icao": "amx257"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D33",
+                "delay": null,
+                "scheduled": "2021-04-28T15:11:00+00:00",
+                "estimated": "2021-04-28T15:11:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T17:47:00+00:00",
+                "estimated": "2021-04-28T17:47:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Frontier Airlines",
+                "iata": "F9",
+                "icao": "FFT"
+            },
+            "flight": {
+                "number": "6628",
+                "iata": "F96628",
+                "icao": "FFT6628",
+                "codeshared": {
+                    "airline_name": "volaris",
+                    "airline_iata": "y4",
+                    "airline_icao": "voi",
+                    "flight_number": "628",
+                    "flight_iata": "y4628",
+                    "flight_icao": "voi628"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D32",
+                "delay": null,
+                "scheduled": "2021-04-28T20:01:00+00:00",
+                "estimated": "2021-04-28T20:01:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T21:30:00+00:00",
+                "estimated": "2021-04-28T21:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Gol",
+                "iata": "G3",
+                "icao": "GLO"
+            },
+            "flight": {
+                "number": "3829",
+                "iata": "G33829",
+                "icao": "GLO3829",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "257",
+                    "flight_iata": "am257",
+                    "flight_icao": "amx257"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "A7",
+                "delay": 8,
+                "scheduled": "2021-04-28T08:03:00+00:00",
+                "estimated": "2021-04-28T08:03:00+00:00",
+                "actual": "2021-04-28T08:10:00+00:00",
+                "estimated_runway": "2021-04-28T08:10:00+00:00",
+                "actual_runway": "2021-04-28T08:10:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T10:39:00+00:00",
+                "estimated": "2021-04-28T10:39:00+00:00",
+                "actual": "2021-04-28T10:25:00+00:00",
+                "estimated_runway": "2021-04-28T10:25:00+00:00",
+                "actual_runway": "2021-04-28T10:25:00+00:00"
+            },
+            "airline": {
+                "name": "Frontier Airlines",
+                "iata": "F9",
+                "icao": "FFT"
+            },
+            "flight": {
+                "number": "6630",
+                "iata": "F96630",
+                "icao": "FFT6630",
+                "codeshared": {
+                    "airline_name": "volaris",
+                    "airline_iata": "y4",
+                    "airline_icao": "voi",
+                    "flight_number": "630",
+                    "flight_iata": "y4630",
+                    "flight_icao": "voi630"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D32",
+                "delay": 10,
+                "scheduled": "2021-04-28T10:00:00+00:00",
+                "estimated": "2021-04-28T10:00:00+00:00",
+                "actual": "2021-04-28T10:09:00+00:00",
+                "estimated_runway": "2021-04-28T10:09:00+00:00",
+                "actual_runway": "2021-04-28T10:09:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T12:36:00+00:00",
+                "estimated": "2021-04-28T12:36:00+00:00",
+                "actual": "2021-04-28T12:23:00+00:00",
+                "estimated_runway": "2021-04-28T12:23:00+00:00",
+                "actual_runway": "2021-04-28T12:23:00+00:00"
+            },
+            "airline": {
+                "name": "Frontier Airlines",
+                "iata": "F9",
+                "icao": "FFT"
+            },
+            "flight": {
+                "number": "6632",
+                "iata": "F96632",
+                "icao": "FFT6632",
+                "codeshared": {
+                    "airline_name": "volaris",
+                    "airline_iata": "y4",
+                    "airline_icao": "voi",
+                    "flight_number": "632",
+                    "flight_iata": "y4632",
+                    "flight_icao": "voi632"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D36",
+                "delay": 10,
+                "scheduled": "2021-04-28T18:40:00+00:00",
+                "estimated": "2021-04-28T18:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T20:05:00+00:00",
+                "estimated": "2021-04-28T20:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aerolineas Argentinas",
+                "iata": "AR",
+                "icao": "ARG"
+            },
+            "flight": {
+                "number": "7423",
+                "iata": "AR7423",
+                "icao": "ARG7423",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "253",
+                    "flight_iata": "am253",
+                    "flight_icao": "amx253"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D32",
+                "delay": 13,
+                "scheduled": "2021-04-28T06:30:00+00:00",
+                "estimated": "2021-04-28T06:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T09:06:00+00:00",
+                "estimated": "2021-04-28T09:06:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Frontier Airlines",
+                "iata": "F9",
+                "icao": "FFT"
+            },
+            "flight": {
+                "number": "6634",
+                "iata": "F96634",
+                "icao": "FFT6634",
+                "codeshared": {
+                    "airline_name": "volaris",
+                    "airline_iata": "y4",
+                    "airline_icao": "voi",
+                    "flight_number": "634",
+                    "flight_iata": "y4634",
+                    "flight_icao": "voi634"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D33",
+                "delay": null,
+                "scheduled": "2021-04-28T22:07:00+00:00",
+                "estimated": "2021-04-28T22:07:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "TBIT",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T23:30:00+00:00",
+                "estimated": "2021-04-28T23:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Frontier Airlines",
+                "iata": "F9",
+                "icao": "FFT"
+            },
+            "flight": {
+                "number": "6914",
+                "iata": "F96914",
+                "icao": "FFT6914",
+                "codeshared": {
+                    "airline_name": "volaris",
+                    "airline_iata": "y4",
+                    "airline_icao": "voi",
+                    "flight_number": "914",
+                    "flight_iata": "y4914",
+                    "flight_icao": "voi914"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "A8",
+                "delay": null,
+                "scheduled": "2021-04-28T17:34:00+00:00",
+                "estimated": "2021-04-28T17:34:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T20:10:00+00:00",
+                "estimated": "2021-04-28T20:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Frontier Airlines",
+                "iata": "F9",
+                "icao": "FFT"
+            },
+            "flight": {
+                "number": "6652",
+                "iata": "F96652",
+                "icao": "FFT6652",
+                "codeshared": {
+                    "airline_name": "volaris",
+                    "airline_iata": "y4",
+                    "airline_icao": "voi",
+                    "flight_number": "652",
+                    "flight_iata": "y4652",
+                    "flight_icao": "voi652"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D37",
+                "delay": 6,
+                "scheduled": "2021-04-28T10:50:00+00:00",
+                "estimated": "2021-04-28T10:50:00+00:00",
+                "actual": "2021-04-28T10:56:00+00:00",
+                "estimated_runway": "2021-04-28T10:56:00+00:00",
+                "actual_runway": "2021-04-28T10:56:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T13:45:00+00:00",
+                "estimated": "2021-04-28T13:45:00+00:00",
+                "actual": "2021-04-28T13:16:00+00:00",
+                "estimated_runway": "2021-04-28T13:16:00+00:00",
+                "actual_runway": "2021-04-28T13:16:00+00:00"
+            },
+            "airline": {
+                "name": "VivaAerobus",
+                "iata": "VB",
+                "icao": "VIV"
+            },
+            "flight": {
+                "number": "2133",
+                "iata": "VB2133",
+                "icao": "VIV2133",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "XXB",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "855188"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B13",
+                "delay": 9,
+                "scheduled": "2021-04-28T09:20:00+00:00",
+                "estimated": "2021-04-28T09:20:00+00:00",
+                "actual": "2021-04-28T09:28:00+00:00",
+                "estimated_runway": "2021-04-28T09:28:00+00:00",
+                "actual_runway": "2021-04-28T09:28:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T11:00:00+00:00",
+                "estimated": "2021-04-28T11:00:00+00:00",
+                "actual": "2021-04-28T10:22:00+00:00",
+                "estimated_runway": "2021-04-28T10:22:00+00:00",
+                "actual_runway": "2021-04-28T10:22:00+00:00"
+            },
+            "airline": {
+                "name": "Korean Air",
+                "iata": "KE",
+                "icao": "KAL"
+            },
+            "flight": {
+                "number": "7960",
+                "iata": "KE7960",
+                "icao": "KAL7960",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "782",
+                    "flight_iata": "am782",
+                    "flight_icao": "amx782"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B13",
+                "delay": 6,
+                "scheduled": "2021-04-28T06:10:00+00:00",
+                "estimated": "2021-04-28T06:10:00+00:00",
+                "actual": "2021-04-28T06:15:00+00:00",
+                "estimated_runway": "2021-04-28T06:15:00+00:00",
+                "actual_runway": "2021-04-28T06:15:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T07:33:00+00:00",
+                "estimated": "2021-04-28T07:33:00+00:00",
+                "actual": "2021-04-28T07:14:00+00:00",
+                "estimated_runway": "2021-04-28T07:14:00+00:00",
+                "actual_runway": "2021-04-28T07:14:00+00:00"
+            },
+            "airline": {
+                "name": "Frontier Airlines",
+                "iata": "F9",
+                "icao": "FFT"
+            },
+            "flight": {
+                "number": "6912",
+                "iata": "F96912",
+                "icao": "FFT6912",
+                "codeshared": {
+                    "airline_name": "volaris",
+                    "airline_iata": "y4",
+                    "airline_icao": "voi",
+                    "flight_number": "912",
+                    "flight_iata": "y4912",
+                    "flight_icao": "voi912"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D33",
+                "delay": 6,
+                "scheduled": "2021-04-28T13:10:00+00:00",
+                "estimated": "2021-04-28T13:10:00+00:00",
+                "actual": "2021-04-28T13:15:00+00:00",
+                "estimated_runway": "2021-04-28T13:15:00+00:00",
+                "actual_runway": "2021-04-28T13:15:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T16:05:00+00:00",
+                "estimated": "2021-04-28T16:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "VivaAerobus",
+                "iata": "VB",
+                "icao": "VIV"
+            },
+            "flight": {
+                "number": "2135",
+                "iata": "VB2135",
+                "icao": "VIV2135",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D35",
+                "delay": 12,
+                "scheduled": "2021-04-28T12:47:00+00:00",
+                "estimated": "2021-04-28T12:47:00+00:00",
+                "actual": "2021-04-28T12:59:00+00:00",
+                "estimated_runway": "2021-04-28T12:59:00+00:00",
+                "actual_runway": "2021-04-28T12:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T14:05:00+00:00",
+                "estimated": "2021-04-28T14:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "960",
+                "iata": "Y4960",
+                "icao": "VOI960",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B10",
+                "delay": null,
+                "scheduled": "2021-04-28T18:10:00+00:00",
+                "estimated": "2021-04-28T18:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Midway",
+                "timezone": "America/Chicago",
+                "iata": "MDW",
+                "icao": "KMDW",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T22:04:00+00:00",
+                "estimated": "2021-04-28T22:04:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "940",
+                "iata": "Y4940",
+                "icao": "VOI940",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D32",
+                "delay": 7,
+                "scheduled": "2021-04-28T11:55:00+00:00",
+                "estimated": "2021-04-28T11:55:00+00:00",
+                "actual": "2021-04-28T12:02:00+00:00",
+                "estimated_runway": "2021-04-28T12:02:00+00:00",
+                "actual_runway": "2021-04-28T12:02:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T14:31:00+00:00",
+                "estimated": "2021-04-28T14:31:00+00:00",
+                "actual": "2021-04-28T14:22:00+00:00",
+                "estimated_runway": "2021-04-28T14:22:00+00:00",
+                "actual_runway": "2021-04-28T14:22:00+00:00"
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "606",
+                "iata": "Y4606",
+                "icao": "VOI606",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "E42",
+                "delay": 13,
+                "scheduled": "2021-04-28T07:02:00+00:00",
+                "estimated": "2021-04-28T07:02:00+00:00",
+                "actual": "2021-04-28T07:14:00+00:00",
+                "estimated_runway": "2021-04-28T07:14:00+00:00",
+                "actual_runway": "2021-04-28T07:14:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T08:25:00+00:00",
+                "estimated": "2021-04-28T08:25:00+00:00",
+                "actual": "2021-04-28T08:06:00+00:00",
+                "estimated_runway": "2021-04-28T08:06:00+00:00",
+                "actual_runway": "2021-04-28T08:06:00+00:00"
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "205",
+                "iata": "AM205",
+                "icao": "AMX205",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B13",
+                "delay": 10,
+                "scheduled": "2021-04-28T13:00:00+00:00",
+                "estimated": "2021-04-28T13:00:00+00:00",
+                "actual": "2021-04-28T13:09:00+00:00",
+                "estimated_runway": "2021-04-28T13:09:00+00:00",
+                "actual_runway": "2021-04-28T13:09:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T15:36:00+00:00",
+                "estimated": "2021-04-28T15:36:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "618",
+                "iata": "Y4618",
+                "icao": "VOI618",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "XA-VRF",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "0D0B35"
+            },
+            "live": {
+                "updated": "2021-04-28T18:21:11+00:00",
+                "latitude": 20.5,
+                "longitude": -102.32,
+                "altitude": 8656.32,
+                "direction": 99,
+                "speed_horizontal": 781.544,
+                "speed_vertical": 0,
+                "is_ground": false
+            }
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D30",
+                "delay": null,
+                "scheduled": "2021-04-28T20:07:00+00:00",
+                "estimated": "2021-04-28T20:07:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "TBIT",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T21:30:00+00:00",
+                "estimated": "2021-04-28T21:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "916",
+                "iata": "Y4916",
+                "icao": "VOI916",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D33",
+                "delay": null,
+                "scheduled": "2021-04-28T15:11:00+00:00",
+                "estimated": "2021-04-28T15:11:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T17:47:00+00:00",
+                "estimated": "2021-04-28T17:47:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "628",
+                "iata": "Y4628",
+                "icao": "VOI628",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "XA-VRP",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "0D0C9B"
+            },
+            "live": {
+                "updated": "2021-04-28T20:36:46+00:00",
+                "latitude": 20.52,
+                "longitude": -103.3,
+                "altitude": 0,
+                "direction": 126,
+                "speed_horizontal": 31.484,
+                "speed_vertical": 0,
+                "is_ground": true
+            }
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B13",
+                "delay": 9,
+                "scheduled": "2021-04-28T09:20:00+00:00",
+                "estimated": "2021-04-28T09:20:00+00:00",
+                "actual": "2021-04-28T09:28:00+00:00",
+                "estimated_runway": "2021-04-28T09:28:00+00:00",
+                "actual_runway": "2021-04-28T09:28:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T11:00:00+00:00",
+                "estimated": "2021-04-28T11:00:00+00:00",
+                "actual": "2021-04-28T10:22:00+00:00",
+                "estimated_runway": "2021-04-28T10:22:00+00:00",
+                "actual_runway": "2021-04-28T10:22:00+00:00"
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "782",
+                "iata": "AM782",
+                "icao": "AMX782",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "A7",
+                "delay": 8,
+                "scheduled": "2021-04-28T08:03:00+00:00",
+                "estimated": "2021-04-28T08:03:00+00:00",
+                "actual": "2021-04-28T08:10:00+00:00",
+                "estimated_runway": "2021-04-28T08:10:00+00:00",
+                "actual_runway": "2021-04-28T08:10:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T10:39:00+00:00",
+                "estimated": "2021-04-28T10:39:00+00:00",
+                "actual": "2021-04-28T10:25:00+00:00",
+                "estimated_runway": "2021-04-28T10:25:00+00:00",
+                "actual_runway": "2021-04-28T10:25:00+00:00"
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "630",
+                "iata": "Y4630",
+                "icao": "VOI630",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D32",
+                "delay": 10,
+                "scheduled": "2021-04-28T10:00:00+00:00",
+                "estimated": "2021-04-28T10:00:00+00:00",
+                "actual": "2021-04-28T10:09:00+00:00",
+                "estimated_runway": "2021-04-28T10:09:00+00:00",
+                "actual_runway": "2021-04-28T10:09:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T12:36:00+00:00",
+                "estimated": "2021-04-28T12:36:00+00:00",
+                "actual": "2021-04-28T12:23:00+00:00",
+                "estimated_runway": "2021-04-28T12:23:00+00:00",
+                "actual_runway": "2021-04-28T12:23:00+00:00"
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "632",
+                "iata": "Y4632",
+                "icao": "VOI632",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "XA-VRJ",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "0D0B91"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D37",
+                "delay": null,
+                "scheduled": "2021-04-28T17:10:00+00:00",
+                "estimated": "2021-04-28T17:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T18:35:00+00:00",
+                "estimated": "2021-04-28T18:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "8130",
+                "iata": "DL8130",
+                "icao": "DAL8130",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "247",
+                    "flight_iata": "am247",
+                    "flight_icao": "amx247"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D32",
+                "delay": 13,
+                "scheduled": "2021-04-28T06:30:00+00:00",
+                "estimated": "2021-04-28T06:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T09:06:00+00:00",
+                "estimated": "2021-04-28T09:06:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "634",
+                "iata": "Y4634",
+                "icao": "VOI634",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D34",
+                "delay": 22,
+                "scheduled": "2021-04-28T14:36:00+00:00",
+                "estimated": "2021-04-28T14:36:00+00:00",
+                "actual": "2021-04-28T14:58:00+00:00",
+                "estimated_runway": "2021-04-28T14:58:00+00:00",
+                "actual_runway": "2021-04-28T14:58:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "61",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T16:00:00+00:00",
+                "estimated": "2021-04-28T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "8050",
+                "iata": "DL8050",
+                "icao": "DAL8050",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "237",
+                    "flight_iata": "am237",
+                    "flight_icao": "amx237"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "A8",
+                "delay": null,
+                "scheduled": "2021-04-28T17:34:00+00:00",
+                "estimated": "2021-04-28T17:34:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cancún International",
+                "timezone": "America/Cancun",
+                "iata": "CUN",
+                "icao": "MMUN",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T20:10:00+00:00",
+                "estimated": "2021-04-28T20:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "652",
+                "iata": "Y4652",
+                "icao": "VOI652",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D34",
+                "delay": 10,
+                "scheduled": "2021-04-28T20:48:00+00:00",
+                "estimated": "2021-04-28T20:48:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T22:15:00+00:00",
+                "estimated": "2021-04-28T22:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "261",
+                "iata": "AM261",
+                "icao": "AMX261",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "E44",
+                "delay": 5,
+                "scheduled": "2021-04-28T07:27:00+00:00",
+                "estimated": "2021-04-28T07:27:00+00:00",
+                "actual": "2021-04-28T07:32:00+00:00",
+                "estimated_runway": "2021-04-28T07:32:00+00:00",
+                "actual_runway": "2021-04-28T07:32:00+00:00"
+            },
+            "arrival": {
+                "airport": "Gen Fierro Villalobos",
+                "timezone": "America/Chihuahua",
+                "iata": "CUU",
+                "icao": "MMCU",
+                "terminal": "A",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T08:14:00+00:00",
+                "estimated": "2021-04-28T08:14:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "678",
+                "iata": "Y4678",
+                "icao": "VOI678",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "A7",
+                "delay": null,
+                "scheduled": "2021-04-28T17:00:00+00:00",
+                "estimated": "2021-04-28T17:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Gen Fierro Villalobos",
+                "timezone": "America/Chihuahua",
+                "iata": "CUU",
+                "icao": "MMCU",
+                "terminal": "A",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T17:47:00+00:00",
+                "estimated": "2021-04-28T17:47:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "694",
+                "iata": "Y4694",
+                "icao": "VOI694",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D30",
+                "delay": 15,
+                "scheduled": "2021-04-28T06:22:00+00:00",
+                "estimated": "2021-04-28T06:22:00+00:00",
+                "actual": "2021-04-28T06:37:00+00:00",
+                "estimated_runway": "2021-04-28T06:37:00+00:00",
+                "actual_runway": "2021-04-28T06:37:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T07:45:00+00:00",
+                "estimated": "2021-04-28T07:45:00+00:00",
+                "actual": "2021-04-28T07:28:00+00:00",
+                "estimated_runway": "2021-04-28T07:28:00+00:00",
+                "actual_runway": "2021-04-28T07:28:00+00:00"
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "8164",
+                "iata": "DL8164",
+                "icao": "DAL8164",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "203",
+                    "flight_iata": "am203",
+                    "flight_icao": "amx203"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2021-04-28T19:53:00+00:00",
+                "estimated": "2021-04-28T19:53:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cincinnati/Northern Kentucky",
+                "timezone": "America/New_York",
+                "iata": "CVG",
+                "icao": "KCVG",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-29T00:31:00+00:00",
+                "estimated": "2021-04-29T00:31:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Cargojet",
+                "iata": "W8",
+                "icao": "CJT"
+            },
+            "flight": {
+                "number": "926",
+                "iata": "W8926",
+                "icao": "CJT926",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2021-04-28T08:30:00+00:00",
+                "estimated": "2021-04-28T08:30:00+00:00",
+                "actual": "2021-04-28T09:36:00+00:00",
+                "estimated_runway": "2021-04-28T09:36:00+00:00",
+                "actual_runway": "2021-04-28T09:36:00+00:00"
+            },
+            "arrival": {
+                "airport": "Vancouver International",
+                "timezone": "America/Vancouver",
+                "iata": "YVR",
+                "icao": "CYVR",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T12:45:00+00:00",
+                "estimated": "2021-04-28T12:45:00+00:00",
+                "actual": "2021-04-28T12:26:00+00:00",
+                "estimated_runway": "2021-04-28T12:26:00+00:00",
+                "actual_runway": "2021-04-28T12:26:00+00:00"
+            },
+            "airline": {
+                "name": "Korean Air",
+                "iata": "KE",
+                "icao": "KAL"
+            },
+            "flight": {
+                "number": "278",
+                "iata": "KE278",
+                "icao": "KAL278",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B11",
+                "delay": 15,
+                "scheduled": "2021-04-28T06:16:00+00:00",
+                "estimated": "2021-04-28T06:16:00+00:00",
+                "actual": "2021-04-28T06:30:00+00:00",
+                "estimated_runway": "2021-04-28T06:30:00+00:00",
+                "actual_runway": "2021-04-28T06:30:00+00:00"
+            },
+            "arrival": {
+                "airport": "Dallas/Fort Worth International",
+                "timezone": "America/Chicago",
+                "iata": "DFW",
+                "icao": "KDFW",
+                "terminal": "D",
+                "gate": "D38",
+                "baggage": "D7",
+                "delay": null,
+                "scheduled": "2021-04-28T08:55:00+00:00",
+                "estimated": "2021-04-28T08:55:00+00:00",
+                "actual": "2021-04-28T08:36:00+00:00",
+                "estimated_runway": "2021-04-28T08:36:00+00:00",
+                "actual_runway": "2021-04-28T08:36:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "1034",
+                "iata": "AA1034",
+                "icao": "AAL1034",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D37",
+                "delay": 22,
+                "scheduled": "2021-04-28T17:10:00+00:00",
+                "estimated": "2021-04-28T17:10:00+00:00",
+                "actual": "2021-04-28T14:58:00+00:00",
+                "estimated_runway": "2021-04-28T14:58:00+00:00",
+                "actual_runway": "2021-04-28T14:58:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T18:35:00+00:00",
+                "estimated": "2021-04-28T18:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "KLM",
+                "iata": "KL",
+                "icao": "KLM"
+            },
+            "flight": {
+                "number": "8965",
+                "iata": "KL8965",
+                "icao": "KLM8965",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "247",
+                    "flight_iata": "am247",
+                    "flight_icao": "amx247"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B10",
+                "delay": 68,
+                "scheduled": "2021-04-28T14:34:00+00:00",
+                "estimated": "2021-04-28T14:34:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Dallas/Fort Worth International",
+                "timezone": "America/Chicago",
+                "iata": "DFW",
+                "icao": "KDFW",
+                "terminal": "D",
+                "gate": "D34",
+                "baggage": "CUST",
+                "delay": null,
+                "scheduled": "2021-04-28T17:09:00+00:00",
+                "estimated": "2021-04-28T17:09:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "387",
+                "iata": "AA387",
+                "icao": "AAL387",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D33",
+                "delay": 6,
+                "scheduled": "2021-04-28T11:10:00+00:00",
+                "estimated": "2021-04-28T11:10:00+00:00",
+                "actual": "2021-04-28T11:15:00+00:00",
+                "estimated_runway": "2021-04-28T11:15:00+00:00",
+                "actual_runway": "2021-04-28T11:15:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "70",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T12:30:00+00:00",
+                "estimated": "2021-04-28T12:30:00+00:00",
+                "actual": "2021-04-28T12:10:00+00:00",
+                "estimated_runway": "2021-04-28T12:10:00+00:00",
+                "actual_runway": "2021-04-28T12:10:00+00:00"
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "8138",
+                "iata": "DL8138",
+                "icao": "DAL8138",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "223",
+                    "flight_iata": "am223",
+                    "flight_icao": "amx223"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B10",
+                "delay": 68,
+                "scheduled": "2021-04-28T14:34:00+00:00",
+                "estimated": "2021-04-28T14:34:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Dallas/Fort Worth International",
+                "timezone": "America/Chicago",
+                "iata": "DFW",
+                "icao": "KDFW",
+                "terminal": "D",
+                "gate": "D31",
+                "baggage": "CUST",
+                "delay": null,
+                "scheduled": "2021-04-28T17:09:00+00:00",
+                "estimated": "2021-04-28T17:09:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "British Airways",
+                "iata": "BA",
+                "icao": "BAW"
+            },
+            "flight": {
+                "number": "1863",
+                "iata": "BA1863",
+                "icao": "BAW1863",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "387",
+                    "flight_iata": "aa387",
+                    "flight_icao": "aal387"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D33",
+                "delay": 6,
+                "scheduled": "2021-04-28T11:10:00+00:00",
+                "estimated": "2021-04-28T11:10:00+00:00",
+                "actual": "2021-04-28T11:15:00+00:00",
+                "estimated_runway": "2021-04-28T11:15:00+00:00",
+                "actual_runway": "2021-04-28T11:15:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "70",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T12:30:00+00:00",
+                "estimated": "2021-04-28T12:30:00+00:00",
+                "actual": "2021-04-28T12:10:00+00:00",
+                "estimated_runway": "2021-04-28T12:10:00+00:00",
+                "actual_runway": "2021-04-28T12:10:00+00:00"
+            },
+            "airline": {
+                "name": "SA AVIANCA",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "6429",
+                "iata": "AV6429",
+                "icao": "AVA6429",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "223",
+                    "flight_iata": "am223",
+                    "flight_icao": "amx223"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B11",
+                "delay": 15,
+                "scheduled": "2021-04-28T06:16:00+00:00",
+                "estimated": "2021-04-28T06:16:00+00:00",
+                "actual": "2021-04-28T06:30:00+00:00",
+                "estimated_runway": "2021-04-28T06:30:00+00:00",
+                "actual_runway": "2021-04-28T06:30:00+00:00"
+            },
+            "arrival": {
+                "airport": "Dallas/Fort Worth International",
+                "timezone": "America/Chicago",
+                "iata": "DFW",
+                "icao": "KDFW",
+                "terminal": "D",
+                "gate": "D38",
+                "baggage": "D7",
+                "delay": null,
+                "scheduled": "2021-04-28T08:55:00+00:00",
+                "estimated": "2021-04-28T08:55:00+00:00",
+                "actual": "2021-04-28T08:36:00+00:00",
+                "estimated_runway": "2021-04-28T08:36:00+00:00",
+                "actual_runway": "2021-04-28T08:36:00+00:00"
+            },
+            "airline": {
+                "name": "British Airways",
+                "iata": "BA",
+                "icao": "BAW"
+            },
+            "flight": {
+                "number": "4846",
+                "iata": "BA4846",
+                "icao": "BAW4846",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "1034",
+                    "flight_iata": "aa1034",
+                    "flight_icao": "aal1034"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B13",
+                "delay": 3,
+                "scheduled": "2021-04-28T15:15:00+00:00",
+                "estimated": "2021-04-28T15:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": "69B",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T16:41:00+00:00",
+                "estimated": "2021-04-28T16:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7580",
+                "iata": "AA7580",
+                "icao": "AAL7580",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "219",
+                    "flight_iata": "as219",
+                    "flight_icao": "asa219"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D30",
+                "delay": 9,
+                "scheduled": "2021-04-28T11:41:00+00:00",
+                "estimated": "2021-04-28T11:41:00+00:00",
+                "actual": "2021-04-28T11:49:00+00:00",
+                "estimated_runway": "2021-04-28T11:49:00+00:00",
+                "actual_runway": "2021-04-28T11:49:00+00:00"
+            },
+            "arrival": {
+                "airport": "Dallas/Fort Worth International",
+                "timezone": "America/Chicago",
+                "iata": "DFW",
+                "icao": "KDFW",
+                "terminal": "D",
+                "gate": "D10",
+                "baggage": "D4",
+                "delay": null,
+                "scheduled": "2021-04-28T14:02:00+00:00",
+                "estimated": "2021-04-28T14:02:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Frontier Airlines",
+                "iata": "F9",
+                "icao": "FFT"
+            },
+            "flight": {
+                "number": "6892",
+                "iata": "F96892",
+                "icao": "FFT6892",
+                "codeshared": {
+                    "airline_name": "volaris",
+                    "airline_iata": "y4",
+                    "airline_icao": "voi",
+                    "flight_number": "892",
+                    "flight_iata": "y4892",
+                    "flight_icao": "voi892"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2021-04-28T20:20:00+00:00",
+                "estimated": "2021-04-28T20:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T22:00:00+00:00",
+                "estimated": "2021-04-28T22:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "AeroUnion",
+                "iata": "6R",
+                "icao": "TNO"
+            },
+            "flight": {
+                "number": "300",
+                "iata": "6R300",
+                "icao": "TNO300",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B11",
+                "delay": 15,
+                "scheduled": "2021-04-28T06:16:00+00:00",
+                "estimated": "2021-04-28T06:16:00+00:00",
+                "actual": "2021-04-28T06:30:00+00:00",
+                "estimated_runway": "2021-04-28T06:30:00+00:00",
+                "actual_runway": "2021-04-28T06:30:00+00:00"
+            },
+            "arrival": {
+                "airport": "Dallas/Fort Worth International",
+                "timezone": "America/Chicago",
+                "iata": "DFW",
+                "icao": "KDFW",
+                "terminal": "D",
+                "gate": "D38",
+                "baggage": "D7",
+                "delay": null,
+                "scheduled": "2021-04-28T08:55:00+00:00",
+                "estimated": "2021-04-28T08:55:00+00:00",
+                "actual": "2021-04-28T08:36:00+00:00",
+                "estimated_runway": "2021-04-28T08:36:00+00:00",
+                "actual_runway": "2021-04-28T08:36:00+00:00"
+            },
+            "airline": {
+                "name": "Jet Linx Aviation",
+                "iata": "JL",
+                "icao": "JTL"
+            },
+            "flight": {
+                "number": "7213",
+                "iata": "JL7213",
+                "icao": "JTL7213",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "1034",
+                    "flight_iata": "aa1034",
+                    "flight_icao": "aal1034"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D35",
+                "delay": 12,
+                "scheduled": "2021-04-28T12:47:00+00:00",
+                "estimated": "2021-04-28T12:47:00+00:00",
+                "actual": "2021-04-28T12:59:00+00:00",
+                "estimated_runway": "2021-04-28T12:59:00+00:00",
+                "actual_runway": "2021-04-28T12:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "Mc Carran International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAS",
+                "icao": "KLAS",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T14:05:00+00:00",
+                "estimated": "2021-04-28T14:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Frontier Airlines",
+                "iata": "F9",
+                "icao": "FFT"
+            },
+            "flight": {
+                "number": "6960",
+                "iata": "F96960",
+                "icao": "FFT6960",
+                "codeshared": {
+                    "airline_name": "volaris",
+                    "airline_iata": "y4",
+                    "airline_icao": "voi",
+                    "flight_number": "960",
+                    "flight_iata": "y4960",
+                    "flight_icao": "voi960"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "diverted",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D30",
+                "delay": 9,
+                "scheduled": "2021-04-28T11:41:00+00:00",
+                "estimated": "2021-04-28T11:41:00+00:00",
+                "actual": "2021-04-28T11:49:00+00:00",
+                "estimated_runway": "2021-04-28T11:49:00+00:00",
+                "actual_runway": "2021-04-28T11:49:00+00:00"
+            },
+            "arrival": {
+                "airport": "Dallas/Fort Worth International",
+                "timezone": "America/Chicago",
+                "iata": "DFW",
+                "icao": "KDFW",
+                "terminal": "D",
+                "gate": "D10",
+                "baggage": "D4",
+                "delay": 42,
+                "scheduled": "2021-04-28T14:02:00+00:00",
+                "estimated": "2021-04-28T14:02:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "892",
+                "iata": "Y4892",
+                "icao": "VOI892",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D30",
+                "delay": null,
+                "scheduled": "2021-04-28T20:07:00+00:00",
+                "estimated": "2021-04-28T20:07:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "TBIT",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T21:30:00+00:00",
+                "estimated": "2021-04-28T21:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Frontier Airlines",
+                "iata": "F9",
+                "icao": "FFT"
+            },
+            "flight": {
+                "number": "6916",
+                "iata": "F96916",
+                "icao": "FFT6916",
+                "codeshared": {
+                    "airline_name": "volaris",
+                    "airline_iata": "y4",
+                    "airline_icao": "voi",
+                    "flight_number": "916",
+                    "flight_iata": "y4916",
+                    "flight_icao": "voi916"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B13",
+                "delay": 9,
+                "scheduled": "2021-04-28T09:20:00+00:00",
+                "estimated": "2021-04-28T09:20:00+00:00",
+                "actual": "2021-04-28T09:28:00+00:00",
+                "estimated_runway": "2021-04-28T09:28:00+00:00",
+                "actual_runway": "2021-04-28T09:28:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T11:00:00+00:00",
+                "estimated": "2021-04-28T11:00:00+00:00",
+                "actual": "2021-04-28T10:22:00+00:00",
+                "estimated_runway": "2021-04-28T10:22:00+00:00",
+                "actual_runway": "2021-04-28T10:22:00+00:00"
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "8145",
+                "iata": "DL8145",
+                "icao": "DAL8145",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "782",
+                    "flight_iata": "am782",
+                    "flight_icao": "amx782"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B11",
+                "delay": 9,
+                "scheduled": "2021-04-28T12:00:00+00:00",
+                "estimated": "2021-04-28T12:00:00+00:00",
+                "actual": "2021-04-28T12:09:00+00:00",
+                "estimated_runway": "2021-04-28T12:09:00+00:00",
+                "actual_runway": "2021-04-28T12:09:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T13:25:00+00:00",
+                "estimated": "2021-04-28T13:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "VivaAerobus",
+                "iata": "VB",
+                "icao": "VIV"
+            },
+            "flight": {
+                "number": "510",
+                "iata": "VB510",
+                "icao": "VIV510",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "XA-VIJ",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "0D0B3E"
+            },
+            "live": {
+                "updated": "2021-04-28T17:06:33+00:00",
+                "latitude": 20.52,
+                "longitude": -103.29,
+                "altitude": 0,
+                "direction": 115,
+                "speed_horizontal": 0,
+                "speed_vertical": 0,
+                "is_ground": true
+            }
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B13",
+                "delay": 3,
+                "scheduled": "2021-04-28T15:15:00+00:00",
+                "estimated": "2021-04-28T15:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": "69B",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T16:41:00+00:00",
+                "estimated": "2021-04-28T16:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Korean Air",
+                "iata": "KE",
+                "icao": "KAL"
+            },
+            "flight": {
+                "number": "6204",
+                "iata": "KE6204",
+                "icao": "KAL6204",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "219",
+                    "flight_iata": "as219",
+                    "flight_icao": "asa219"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B13",
+                "delay": 3,
+                "scheduled": "2021-04-28T15:15:00+00:00",
+                "estimated": "2021-04-28T15:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": "69B",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T16:41:00+00:00",
+                "estimated": "2021-04-28T16:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "219",
+                "iata": "AS219",
+                "icao": "ASA219",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "A5",
+                "delay": 11,
+                "scheduled": "2021-04-28T06:30:00+00:00",
+                "estimated": "2021-04-28T06:30:00+00:00",
+                "actual": "2021-04-28T06:41:00+00:00",
+                "estimated_runway": "2021-04-28T06:41:00+00:00",
+                "actual_runway": "2021-04-28T06:41:00+00:00"
+            },
+            "arrival": {
+                "airport": "Gen Pesqueira Garcia",
+                "timezone": "America/Hermosillo",
+                "iata": "HMO",
+                "icao": "MMHO",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T06:40:00+00:00",
+                "estimated": "2021-04-28T06:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "VivaAerobus",
+                "iata": "VB",
+                "icao": "VIV"
+            },
+            "flight": {
+                "number": "3176",
+                "iata": "VB3176",
+                "icao": "VIV3176",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D30",
+                "delay": 14,
+                "scheduled": "2021-04-28T13:13:00+00:00",
+                "estimated": "2021-04-28T13:13:00+00:00",
+                "actual": "2021-04-28T13:27:00+00:00",
+                "estimated_runway": "2021-04-28T13:27:00+00:00",
+                "actual_runway": "2021-04-28T13:27:00+00:00"
+            },
+            "arrival": {
+                "airport": "General Manuel Márquez De León International Airport",
+                "timezone": "America/Mazatlan",
+                "iata": "LAP",
+                "icao": "MMLP",
+                "terminal": "A",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T13:53:00+00:00",
+                "estimated": "2021-04-28T13:53:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "680",
+                "iata": "Y4680",
+                "icao": "VOI680",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D33",
+                "delay": null,
+                "scheduled": "2021-04-28T22:07:00+00:00",
+                "estimated": "2021-04-28T22:07:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "TBIT",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T23:30:00+00:00",
+                "estimated": "2021-04-28T23:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "914",
+                "iata": "Y4914",
+                "icao": "VOI914",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "A7",
+                "delay": 8,
+                "scheduled": "2021-04-28T12:07:00+00:00",
+                "estimated": "2021-04-28T12:07:00+00:00",
+                "actual": "2021-04-28T12:15:00+00:00",
+                "estimated_runway": "2021-04-28T12:15:00+00:00",
+                "actual_runway": "2021-04-28T12:15:00+00:00"
+            },
+            "arrival": {
+                "airport": "Gen Pesqueira Garcia",
+                "timezone": "America/Hermosillo",
+                "iata": "HMO",
+                "icao": "MMHO",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T12:14:00+00:00",
+                "estimated": "2021-04-28T12:14:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "5740",
+                "iata": "Y45740",
+                "icao": "VOI5740",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D34",
+                "delay": 22,
+                "scheduled": "2021-04-28T14:36:00+00:00",
+                "estimated": "2021-04-28T14:36:00+00:00",
+                "actual": "2021-04-28T14:58:00+00:00",
+                "estimated_runway": "2021-04-28T14:58:00+00:00",
+                "actual_runway": "2021-04-28T14:58:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "61",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T16:00:00+00:00",
+                "estimated": "2021-04-28T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air France",
+                "iata": "AF",
+                "icao": "AFR"
+            },
+            "flight": {
+                "number": "9930",
+                "iata": "AF9930",
+                "icao": "AFR9930",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "237",
+                    "flight_iata": "am237",
+                    "flight_icao": "amx237"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "A4",
+                "delay": null,
+                "scheduled": "2021-04-28T19:35:00+00:00",
+                "estimated": "2021-04-28T19:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Gen Pesqueira Garcia",
+                "timezone": "America/Hermosillo",
+                "iata": "HMO",
+                "icao": "MMHO",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T19:42:00+00:00",
+                "estimated": "2021-04-28T19:42:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "682",
+                "iata": "Y4682",
+                "icao": "VOI682",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": null,
+                "gate": null,
+                "delay": 14,
+                "scheduled": "2021-04-28T20:36:00+00:00",
+                "estimated": "2021-04-28T20:36:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Memphis International",
+                "timezone": "America/Chicago",
+                "iata": "MEM",
+                "icao": "KMEM",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T23:28:00+00:00",
+                "estimated": "2021-04-28T23:28:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "FedEx",
+                "iata": "FX",
+                "icao": "FDX"
+            },
+            "flight": {
+                "number": "66",
+                "iata": "FX66",
+                "icao": "FDX66",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "E44",
+                "delay": 8,
+                "scheduled": "2021-04-28T10:20:00+00:00",
+                "estimated": "2021-04-28T10:20:00+00:00",
+                "actual": "2021-04-28T10:27:00+00:00",
+                "estimated_runway": "2021-04-28T10:27:00+00:00",
+                "actual_runway": "2021-04-28T10:27:00+00:00"
+            },
+            "arrival": {
+                "airport": "George Bush Intercontinental",
+                "timezone": "America/Chicago",
+                "iata": "IAH",
+                "icao": "KIAH",
+                "terminal": "E",
+                "gate": "10",
+                "baggage": "F4",
+                "delay": null,
+                "scheduled": "2021-04-28T12:37:00+00:00",
+                "estimated": "2021-04-28T12:37:00+00:00",
+                "actual": "2021-04-28T12:12:00+00:00",
+                "estimated_runway": "2021-04-28T12:12:00+00:00",
+                "actual_runway": "2021-04-28T12:12:00+00:00"
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "3797",
+                "iata": "AC3797",
+                "icao": "ACA3797",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "1190",
+                    "flight_iata": "ua1190",
+                    "flight_icao": "ual1190"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B13",
+                "delay": 6,
+                "scheduled": "2021-04-28T06:10:00+00:00",
+                "estimated": "2021-04-28T06:10:00+00:00",
+                "actual": "2021-04-28T06:15:00+00:00",
+                "estimated_runway": "2021-04-28T06:15:00+00:00",
+                "actual_runway": "2021-04-28T06:15:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T07:33:00+00:00",
+                "estimated": "2021-04-28T07:33:00+00:00",
+                "actual": "2021-04-28T07:14:00+00:00",
+                "estimated_runway": "2021-04-28T07:14:00+00:00",
+                "actual_runway": "2021-04-28T07:14:00+00:00"
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "912",
+                "iata": "Y4912",
+                "icao": "VOI912",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D30",
+                "delay": 15,
+                "scheduled": "2021-04-28T06:22:00+00:00",
+                "estimated": "2021-04-28T06:22:00+00:00",
+                "actual": "2021-04-28T06:37:00+00:00",
+                "estimated_runway": "2021-04-28T06:37:00+00:00",
+                "actual_runway": "2021-04-28T06:37:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T07:45:00+00:00",
+                "estimated": "2021-04-28T07:45:00+00:00",
+                "actual": "2021-04-28T07:28:00+00:00",
+                "estimated_runway": "2021-04-28T07:28:00+00:00",
+                "actual_runway": "2021-04-28T07:28:00+00:00"
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "203",
+                "iata": "AM203",
+                "icao": "AMX203",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B10",
+                "delay": 9,
+                "scheduled": "2021-04-28T12:45:00+00:00",
+                "estimated": "2021-04-28T12:45:00+00:00",
+                "actual": "2021-04-28T12:54:00+00:00",
+                "estimated_runway": "2021-04-28T12:54:00+00:00",
+                "actual_runway": "2021-04-28T12:54:00+00:00"
+            },
+            "arrival": {
+                "airport": "George Bush Intercontinental",
+                "timezone": "America/Chicago",
+                "iata": "IAH",
+                "icao": "KIAH",
+                "terminal": "E",
+                "gate": "E10",
+                "baggage": "F2",
+                "delay": null,
+                "scheduled": "2021-04-28T15:02:00+00:00",
+                "estimated": "2021-04-28T15:02:00+00:00",
+                "actual": "2021-04-28T14:34:00+00:00",
+                "estimated_runway": "2021-04-28T14:34:00+00:00",
+                "actual_runway": "2021-04-28T14:34:00+00:00"
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "5969",
+                "iata": "AC5969",
+                "icao": "ACA5969",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "1955",
+                    "flight_iata": "ua1955",
+                    "flight_icao": "ual1955"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D34",
+                "delay": 22,
+                "scheduled": "2021-04-28T14:36:00+00:00",
+                "estimated": "2021-04-28T14:36:00+00:00",
+                "actual": "2021-04-28T14:58:00+00:00",
+                "estimated_runway": "2021-04-28T14:58:00+00:00",
+                "actual_runway": "2021-04-28T14:58:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "61",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T16:00:00+00:00",
+                "estimated": "2021-04-28T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "237",
+                "iata": "AM237",
+                "icao": "AMX237",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "A4",
+                "delay": 7,
+                "scheduled": "2021-04-28T07:05:00+00:00",
+                "estimated": "2021-04-28T07:05:00+00:00",
+                "actual": "2021-04-28T07:11:00+00:00",
+                "estimated_runway": "2021-04-28T07:11:00+00:00",
+                "actual_runway": "2021-04-28T07:11:00+00:00"
+            },
+            "arrival": {
+                "airport": "George Bush Intercontinental",
+                "timezone": "America/Chicago",
+                "iata": "IAH",
+                "icao": "KIAH",
+                "terminal": "D",
+                "gate": "D8",
+                "baggage": "F5",
+                "delay": null,
+                "scheduled": "2021-04-28T09:15:00+00:00",
+                "estimated": "2021-04-28T09:15:00+00:00",
+                "actual": "2021-04-28T08:55:00+00:00",
+                "estimated_runway": "2021-04-28T08:55:00+00:00",
+                "actual_runway": "2021-04-28T08:55:00+00:00"
+            },
+            "airline": {
+                "name": "Frontier Airlines",
+                "iata": "F9",
+                "icao": "FFT"
+            },
+            "flight": {
+                "number": "6890",
+                "iata": "F96890",
+                "icao": "FFT6890",
+                "codeshared": {
+                    "airline_name": "volaris",
+                    "airline_iata": "y4",
+                    "airline_icao": "voi",
+                    "flight_number": "890",
+                    "flight_iata": "y4890",
+                    "flight_icao": "voi890"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D35",
+                "delay": 14,
+                "scheduled": "2021-04-28T09:20:00+00:00",
+                "estimated": "2021-04-28T09:20:00+00:00",
+                "actual": "2021-04-28T09:34:00+00:00",
+                "estimated_runway": "2021-04-28T09:34:00+00:00",
+                "actual_runway": "2021-04-28T09:34:00+00:00"
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "64",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T10:40:00+00:00",
+                "estimated": "2021-04-28T10:40:00+00:00",
+                "actual": "2021-04-28T10:28:00+00:00",
+                "estimated_runway": "2021-04-28T10:28:00+00:00",
+                "actual_runway": "2021-04-28T10:28:00+00:00"
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "215",
+                "iata": "AM215",
+                "icao": "AMX215",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "E44",
+                "delay": 8,
+                "scheduled": "2021-04-28T10:20:00+00:00",
+                "estimated": "2021-04-28T10:20:00+00:00",
+                "actual": "2021-04-28T10:27:00+00:00",
+                "estimated_runway": "2021-04-28T10:27:00+00:00",
+                "actual_runway": "2021-04-28T10:27:00+00:00"
+            },
+            "arrival": {
+                "airport": "George Bush Intercontinental",
+                "timezone": "America/Chicago",
+                "iata": "IAH",
+                "icao": "KIAH",
+                "terminal": "E",
+                "gate": "10",
+                "baggage": "F4",
+                "delay": null,
+                "scheduled": "2021-04-28T12:37:00+00:00",
+                "estimated": "2021-04-28T12:37:00+00:00",
+                "actual": "2021-04-28T12:12:00+00:00",
+                "estimated_runway": "2021-04-28T12:12:00+00:00",
+                "actual_runway": "2021-04-28T12:12:00+00:00"
+            },
+            "airline": {
+                "name": "Lufthansa",
+                "iata": "LH",
+                "icao": "DLH"
+            },
+            "flight": {
+                "number": "7612",
+                "iata": "LH7612",
+                "icao": "DLH7612",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "1190",
+                    "flight_iata": "ua1190",
+                    "flight_icao": "ual1190"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D36",
+                "delay": 10,
+                "scheduled": "2021-04-28T18:40:00+00:00",
+                "estimated": "2021-04-28T18:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T20:05:00+00:00",
+                "estimated": "2021-04-28T20:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air France",
+                "iata": "AF",
+                "icao": "AFR"
+            },
+            "flight": {
+                "number": "9943",
+                "iata": "AF9943",
+                "icao": "AFR9943",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "253",
+                    "flight_iata": "am253",
+                    "flight_icao": "amx253"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B13",
+                "delay": 9,
+                "scheduled": "2021-04-28T09:20:00+00:00",
+                "estimated": "2021-04-28T09:20:00+00:00",
+                "actual": "2021-04-28T09:28:00+00:00",
+                "estimated_runway": "2021-04-28T09:28:00+00:00",
+                "actual_runway": "2021-04-28T09:28:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T11:00:00+00:00",
+                "estimated": "2021-04-28T11:00:00+00:00",
+                "actual": "2021-04-28T10:22:00+00:00",
+                "estimated_runway": "2021-04-28T10:22:00+00:00",
+                "actual_runway": "2021-04-28T10:22:00+00:00"
+            },
+            "airline": {
+                "name": "Virgin Atlantic",
+                "iata": "VS",
+                "icao": "VIR"
+            },
+            "flight": {
+                "number": "7515",
+                "iata": "VS7515",
+                "icao": "VIR7515",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "782",
+                    "flight_iata": "am782",
+                    "flight_icao": "amx782"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B10",
+                "delay": 9,
+                "scheduled": "2021-04-28T12:45:00+00:00",
+                "estimated": "2021-04-28T12:45:00+00:00",
+                "actual": "2021-04-28T12:54:00+00:00",
+                "estimated_runway": "2021-04-28T12:54:00+00:00",
+                "actual_runway": "2021-04-28T12:54:00+00:00"
+            },
+            "arrival": {
+                "airport": "George Bush Intercontinental",
+                "timezone": "America/Chicago",
+                "iata": "IAH",
+                "icao": "KIAH",
+                "terminal": "E",
+                "gate": "E10",
+                "baggage": "F2",
+                "delay": null,
+                "scheduled": "2021-04-28T15:02:00+00:00",
+                "estimated": "2021-04-28T15:02:00+00:00",
+                "actual": "2021-04-28T14:34:00+00:00",
+                "estimated_runway": "2021-04-28T14:34:00+00:00",
+                "actual_runway": "2021-04-28T14:34:00+00:00"
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "9966",
+                "iata": "NZ9966",
+                "icao": "ANZ9966",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "1955",
+                    "flight_iata": "ua1955",
+                    "flight_icao": "ual1955"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "E44",
+                "delay": 8,
+                "scheduled": "2021-04-28T10:20:00+00:00",
+                "estimated": "2021-04-28T10:20:00+00:00",
+                "actual": "2021-04-28T10:27:00+00:00",
+                "estimated_runway": "2021-04-28T10:27:00+00:00",
+                "actual_runway": "2021-04-28T10:27:00+00:00"
+            },
+            "arrival": {
+                "airport": "George Bush Intercontinental",
+                "timezone": "America/Chicago",
+                "iata": "IAH",
+                "icao": "KIAH",
+                "terminal": "E",
+                "gate": "10",
+                "baggage": "F4",
+                "delay": null,
+                "scheduled": "2021-04-28T12:37:00+00:00",
+                "estimated": "2021-04-28T12:37:00+00:00",
+                "actual": "2021-04-28T12:12:00+00:00",
+                "estimated_runway": "2021-04-28T12:12:00+00:00",
+                "actual_runway": "2021-04-28T12:12:00+00:00"
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "9968",
+                "iata": "NZ9968",
+                "icao": "ANZ9968",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "1190",
+                    "flight_iata": "ua1190",
+                    "flight_icao": "ual1190"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D36",
+                "delay": 7,
+                "scheduled": "2021-04-28T07:51:00+00:00",
+                "estimated": "2021-04-28T07:51:00+00:00",
+                "actual": "2021-04-28T07:57:00+00:00",
+                "estimated_runway": "2021-04-28T07:57:00+00:00",
+                "actual_runway": "2021-04-28T07:57:00+00:00"
+            },
+            "arrival": {
+                "airport": "General Manuel Márquez De León International Airport",
+                "timezone": "America/Mazatlan",
+                "iata": "LAP",
+                "icao": "MMLP",
+                "terminal": "A",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T08:31:00+00:00",
+                "estimated": "2021-04-28T08:31:00+00:00",
+                "actual": "2021-04-28T08:16:00+00:00",
+                "estimated_runway": "2021-04-28T08:16:00+00:00",
+                "actual_runway": "2021-04-28T08:16:00+00:00"
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "5680",
+                "iata": "Y45680",
+                "icao": "VOI5680",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "E44",
+                "delay": 8,
+                "scheduled": "2021-04-28T10:20:00+00:00",
+                "estimated": "2021-04-28T10:20:00+00:00",
+                "actual": "2021-04-28T10:27:00+00:00",
+                "estimated_runway": "2021-04-28T10:27:00+00:00",
+                "actual_runway": "2021-04-28T10:27:00+00:00"
+            },
+            "arrival": {
+                "airport": "George Bush Intercontinental",
+                "timezone": "America/Chicago",
+                "iata": "IAH",
+                "icao": "KIAH",
+                "terminal": "E",
+                "gate": "10",
+                "baggage": "F4",
+                "delay": null,
+                "scheduled": "2021-04-28T12:37:00+00:00",
+                "estimated": "2021-04-28T12:37:00+00:00",
+                "actual": "2021-04-28T12:12:00+00:00",
+                "estimated_runway": "2021-04-28T12:12:00+00:00",
+                "actual_runway": "2021-04-28T12:12:00+00:00"
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "1190",
+                "iata": "UA1190",
+                "icao": "UAL1190",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D34",
+                "delay": 10,
+                "scheduled": "2021-04-28T20:48:00+00:00",
+                "estimated": "2021-04-28T20:48:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T22:15:00+00:00",
+                "estimated": "2021-04-28T22:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SA AVIANCA",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "2659",
+                "iata": "AV2659",
+                "icao": "AVA2659",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "261",
+                    "flight_iata": "am261",
+                    "flight_icao": "amx261"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D32",
+                "delay": null,
+                "scheduled": "2021-04-28T20:01:00+00:00",
+                "estimated": "2021-04-28T20:01:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T21:30:00+00:00",
+                "estimated": "2021-04-28T21:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "257",
+                "iata": "AM257",
+                "icao": "AMX257",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "B10",
+                "delay": 9,
+                "scheduled": "2021-04-28T12:45:00+00:00",
+                "estimated": "2021-04-28T12:45:00+00:00",
+                "actual": "2021-04-28T12:54:00+00:00",
+                "estimated_runway": "2021-04-28T12:54:00+00:00",
+                "actual_runway": "2021-04-28T12:54:00+00:00"
+            },
+            "arrival": {
+                "airport": "George Bush Intercontinental",
+                "timezone": "America/Chicago",
+                "iata": "IAH",
+                "icao": "KIAH",
+                "terminal": "E",
+                "gate": "E10",
+                "baggage": "F2",
+                "delay": null,
+                "scheduled": "2021-04-28T15:02:00+00:00",
+                "estimated": "2021-04-28T15:02:00+00:00",
+                "actual": "2021-04-28T14:34:00+00:00",
+                "estimated_runway": "2021-04-28T14:34:00+00:00",
+                "actual_runway": "2021-04-28T14:34:00+00:00"
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "1955",
+                "iata": "UA1955",
+                "icao": "UAL1955",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D36",
+                "delay": 10,
+                "scheduled": "2021-04-28T18:40:00+00:00",
+                "estimated": "2021-04-28T18:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T20:05:00+00:00",
+                "estimated": "2021-04-28T20:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "253",
+                "iata": "AM253",
+                "icao": "AMX253",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "A4",
+                "delay": 7,
+                "scheduled": "2021-04-28T07:05:00+00:00",
+                "estimated": "2021-04-28T07:05:00+00:00",
+                "actual": "2021-04-28T07:11:00+00:00",
+                "estimated_runway": "2021-04-28T07:11:00+00:00",
+                "actual_runway": "2021-04-28T07:11:00+00:00"
+            },
+            "arrival": {
+                "airport": "George Bush Intercontinental",
+                "timezone": "America/Chicago",
+                "iata": "IAH",
+                "icao": "KIAH",
+                "terminal": "D",
+                "gate": "D8",
+                "baggage": "F5",
+                "delay": null,
+                "scheduled": "2021-04-28T09:15:00+00:00",
+                "estimated": "2021-04-28T09:15:00+00:00",
+                "actual": "2021-04-28T08:55:00+00:00",
+                "estimated_runway": "2021-04-28T08:55:00+00:00",
+                "actual_runway": "2021-04-28T08:55:00+00:00"
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "890",
+                "iata": "Y4890",
+                "icao": "VOI890",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "XA-VLN",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "0D0993"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2021-04-28",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": "D37",
+                "delay": null,
+                "scheduled": "2021-04-28T17:10:00+00:00",
+                "estimated": "2021-04-28T17:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": "Q",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2021-04-28T18:35:00+00:00",
+                "estimated": "2021-04-28T18:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "247",
+                "iata": "AM247",
+                "icao": "AMX247",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}

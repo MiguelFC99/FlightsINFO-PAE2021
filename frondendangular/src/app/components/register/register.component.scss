@@ -1,0 +1,14 @@
+.background-register {
+    background-image: url("https://i.pinimg.com/originals/d0/13/24/d013242e236bb773a636c367cd7e6927.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  form {
+    background-color: rgba($color: #ffffff, $alpha: 0.75);
+  }
+  
+input .ng-dirty.ng-invalid {
+  border: solid 1px darkred;
+}
