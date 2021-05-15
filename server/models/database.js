@@ -1,7 +1,11 @@
 const MongoClient = require('mongodb').MongoClient;
-const dotenv = require('dotenv');
+//const dotenv = require('dotenv');
+//dotenv.config();
 
-dotenv.config();
+
+if (process.env.NODE_ENV == 'dev') {
+    require('dotenv').config();
+}
 
 const mongoUrl = process.env.MONGO_URL;
 console.log(process.env.MONGO_URL);

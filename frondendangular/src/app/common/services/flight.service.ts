@@ -30,4 +30,9 @@ export class FlightService {
     const url = environment.apiUrl+"flights/airportsArr"; 
     return this.httpClient.get(url).toPromise(); 
   }
+
+  getOneAirports(iataCodeAir:string):Promise<any>{
+    const url = environment.apiUrl+"flights/airport"+iataCodeAir;
+    return this.httpClient.get(url).toPromise();
+  }
 }

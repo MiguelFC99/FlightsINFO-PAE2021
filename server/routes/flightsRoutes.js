@@ -1,5 +1,7 @@
 'use strict';
 const express = require('express');
+//const dotenv = require('dotenv');
+//dotenv.config();
 const FlightsControllers = require('./../controllers/flightControllers');
 const flightsCtrs = new FlightsControllers();
 
@@ -18,6 +20,8 @@ router.get('/flightsCode', flightsCtrs.getFlightsByCode);
 
 
 router.get('/airportsArr',flightsCtrs.getAirportsList);
+
+router.get('/airport',flightsCtrs.getOneAirport)
 
 //router.get('/flightsArr',)
 

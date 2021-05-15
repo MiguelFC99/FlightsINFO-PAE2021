@@ -1,5 +1,7 @@
 const express = require('express');
 const cors = require('cors');
+//const dotenv = require('dotenv');
+//dotenv.config();
 const socketIo = require('socket.io');
 const swaggerJsDoc = require('swagger-jsdoc');
 
@@ -29,7 +31,7 @@ const swaggerOptions = {
             "title": "Flights API Proyecto PAE 2021",
             "description": "api proyecto p2021",
             "version": "1.0.0",
-            "servers": [ "http://localhost:3000"]
+            "servers": [ "https://flights-info-api.herokuapp.com"]
         }
     },
     apis: ['index.js']
@@ -41,7 +43,9 @@ app.use(express.urlencoded({
     extended: true
 }))
 
+///para agregar el dist
 
+app.use(express.static('dist'));
 /**
  * @swagger
  *
@@ -86,7 +90,7 @@ app.use('/swagger',swaggerUI.serve, swaggerUI.setup(swaggerDoc));
 
 
 let server = app.listen(PORT, function () {
-    console.log('app is running in http://localhost:3000')
+    console.log('app is running in https://flights-info-api.herokuapp.com')
 });
 
 
@@ -95,7 +99,7 @@ const mensajesList= [];
 
 const soIo = socketIo(server,{
     cors: {
-        origin: 'http://localhost:4200',
+        origin: 'https://flights-info-api.herokuapp.com',
         methods: ['GET','POST'],
         allowHeaders: ['Authorizacion'],
         credentials: true
@@ -104,7 +108,7 @@ const soIo = socketIo(server,{
 
 soIo.on('connection', socket =>{
     socket.on('send-message', (data)=>{
-        mensajesList.push(data);
+        mensajesList.unshift(data);
         socket.emit('text-event',mensajesList);
         socket.broadcast.emit('text-event',mensajesList);
     })

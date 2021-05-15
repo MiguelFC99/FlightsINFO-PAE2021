@@ -1,6 +1,7 @@
 const TokenControllers = require('./tokenControllers');
 const tokenCntrs = new TokenControllers();
-
+//const dotenv = require('dotenv');
+//dotenv.config();
 const ObjectId = require('mongodb').ObjectId;
 const {
   User,
@@ -59,26 +60,27 @@ class UsersController {
       password: user.password,
       picture: "https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg"
     }).then(results => {
-      //console.log(results.insertedId);
-      let token = tokenCntrs.createToken(results.insertedId);
+      let uid = ObjectId(results.insertedId).toString()
+      console.log("Este es el resultado de mongoinsert");
+      let token = tokenCntrs.createToken(uid);
       SavedFlights.insertOne({
-        user_id: new ObjectId(results.insertedId),
+        user_id: new ObjectId(uid),
         flightsList: []
       }).then(resfavList => {
         console.log("se creo el usuario y su Lista de favoritos vacia");
         SavedAirports.insertOne({
-          user_id: new ObjectId(results.insertedId),
+          user_id: new ObjectId(uid),
           airportsList: []
         }).then(resfinal => {
           res.status(200).send({
             "token": token
           })
         }).catch(errfinal => {
-          console.log("Error no se pudo crear la lista de favoritos");
+          console.log("Error no se pudo crear la lista de favoritos 2");
           res.status(402).send(errfinal)
         })
       }).catch(errFavList => {
-        console.log("Error no se pudo crear la lista de favoritos");
+        console.log("Error no se pudo crear la lista de favoritos 1");
         res.status(402).send({
           err: 402
         })
@@ -325,7 +327,7 @@ class UsersController {
   deleteItmFavAirportsListUser(req,res){
     console.log("id del usuario: ", req.id);
     console.log("este es el body: ", req.query.iata_code);
-    SavedFlights.updateOne({
+    SavedAirports.updateOne({
       user_id: new ObjectId(req.id)
     }, {
       $pull: {

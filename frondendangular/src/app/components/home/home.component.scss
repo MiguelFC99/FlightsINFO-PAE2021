@@ -49,6 +49,34 @@
     width: 40%;
 }
 
-.container-chat{
-    height: 50%;
+.user{
+    background-color: #5aa7beb6;
+    border: 2px solid #4b889bb6;
 }
+.wit{
+    height: 20px;
+}
+
+
+//chat
+
+.chatUl{
+    list-style:none;
+    list-style-type: none;
+    padding: 0;
+}
+
+.letraSmall{
+    font-size: small;
+}
+
+.backChat{
+    background-color: #EBEAAC;
+}
+.myChat{
+    background-color: #A0E3A4;
+}
+.otherCHat{
+    background-color: #f3f7f2;
+}
+

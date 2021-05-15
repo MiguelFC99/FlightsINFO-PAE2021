@@ -41,7 +41,7 @@ export class ProfileComponent implements OnInit {
   favoriteAirportsList:any = [];
 
   file:any;
-
+  linksList:any = []
   constructor(private userService: UserService, private authService: AuthService) {}
 
   ngOnInit(): void {
@@ -92,10 +92,10 @@ export class ProfileComponent implements OnInit {
     this.userService.deleteItemFavAirportsListUser(codeIata).then(result=>{
       console.log("Ok aeropuerto eliminado de FavList: ",result);
       this.userService.getFavAirportsListUser().then(list =>{
-        this.favoriteFlightsList = list;
+        this.favoriteAirportsList = list;
       }).catch(err=>{
         console.log("error: ",err);
-        if(err.error.err == 402) this.favFlistEmpty = true;
+        if(err.error.err == 402) this.favAirListEmpty = true;
       })
     }).catch(err=>{
       console.log("error al eliminar aeropuerto FavList: ",err);
@@ -117,6 +117,7 @@ export class ProfileComponent implements OnInit {
     const formData = new FormData();
     formData.append('file',this.file)
     this.userService.sendFileItinerario(formData).then(result=>{
+      this.linksList = (result);
       console.log("respuesta de file aws"+result);
     }).catch(err=>{
       console.log("error aws",err);
